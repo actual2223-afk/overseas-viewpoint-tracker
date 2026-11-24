@@ -1,0 +1,36 @@
+name: Viewpoint tracker refresh
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */3 * * *'
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: viewpoint-tracker-pages
+  cancel-in-progress: false
+jobs:
+  refresh-and-publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check public feeds and label unverified leads
+        run: python update_live.py
+      - name: Prepare public site only
+        run: |
+          mkdir -p _publish/data
+          cp index.html _publish/index.html
+          cp data/latest.json _publish/data/latest.json
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _publish
+      - id: deployment
+        uses: actions/deploy-pages@v4
