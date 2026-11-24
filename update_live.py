@@ -38,19 +38,28 @@ def episodes(raw):
 def main():
  d=json.loads(DATA.read_text(encoding='utf-8'));now=datetime.now(timezone.utc)
  old={x['id']:x for x in d.get('leads',[]) if x.get('id')}
+ seen_titles={x.get('title','').strip().lower() for k,x in old.items() if not k.startswith('LIVE-')}
  results=[];fresh=[]
  for entity,url in FEEDS:
   try:
-   n=0
+   n=0;matched=set()
    for title,desc,link,when in episodes(fetch(url)):
     if when<now-timedelta(days=30) or when>now+timedelta(days=2):continue
-    hit=(re.search(r'\b(Marc Andreessen|Ben Horowitz)\b',title+' '+desc,re.I) if entity=='a16z' else re.search(r'\b(2027|outlook|AI|artificial intelligence|China|Chinese|economy|economic|Fed|inflation|equit(y|ies)|S&P|oil|Hatzius|Oppenheimer|Snider|Mericle|Struyven)\b',title+' '+desc,re.I))
+    head=title+' '+desc[:400]  # 只看简介开头，避开节目末尾的免责声明套话
+    hit=(re.search(r'\b(Marc Andreessen|Ben Horowitz)\b',title+' '+desc,re.I) if entity=='a16z' else re.search(r'\b(2027|outlook|AI|artificial intelligence|China|Chinese|economy|economic|Fed|inflation|equit(y|ies)|S&P|oil|Hatzius|Oppenheimer|Snider|Mericle|Struyven)\b',head,re.I))
     if not hit:continue
     n+=1
+    if title.strip().lower() in seen_titles:continue
     key='LIVE-'+hashlib.sha256(link.encode()).hexdigest()[:12]
+    matched.add(key)
     if key in old:continue
     lead={'id':key,'date':when.date().isoformat(),'title':title,'description':'官方 RSS 标题/简介：'+desc[:230],'url':link,'reason':'新发现线索：仅核到 RSS 元数据，正文/音频说话人尚未核验，不能列为正式观点。','entity':entity}
     old[key]=lead;fresh.append(lead)
+    seen_titles.add(title.strip().lower())
+   # 本轮抓取成功时，清掉窗口内已不再符合筛选规则的自动线索（人工整理的线索不动）
+   cutoff=(now-timedelta(days=30)).date().isoformat()
+   for k in [k for k,v in old.items() if k.startswith('LIVE-') and v.get('entity')==entity and v.get('date','')>=cutoff and k not in matched]:
+    del old[k]
    results.append({'entity':entity,'status':'成功','relevant_items':n,'checked_at':now.isoformat(),'feed':url})
   except Exception as exc:
    results.append({'entity':entity,'status':'失败','error':type(exc).__name__+': '+str(exc)[:120],'checked_at':now.isoformat(),'feed':url})
