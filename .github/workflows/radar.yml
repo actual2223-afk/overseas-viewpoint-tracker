@@ -4,18 +4,13 @@ on:
   schedule:
     - cron: '17 */3 * * *'
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 concurrency:
-  group: viewpoint-tracker-pages
+  group: viewpoint-tracker-refresh
   cancel-in-progress: false
 jobs:
-  refresh-and-publish:
+  refresh:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -23,14 +18,15 @@ jobs:
           python-version: '3.12'
       - name: Check public feeds and label unverified leads
         run: python update_live.py
-      - name: Prepare public site only
+      - name: Save results to repository
         run: |
-          mkdir -p _publish/data
-          cp index.html _publish/index.html
-          cp data/latest.json _publish/data/latest.json
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v4
-        with:
-          path: _publish
-      - id: deployment
-        uses: actions/deploy-pages@v4
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Auto refresh $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git pull --rebase
+            git push
+          fi
