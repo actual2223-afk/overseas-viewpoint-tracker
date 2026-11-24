@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T09:36:12.182291+00:00",
+  "generated_at": "2026-11-24T10:16:23.306350+00:00",
   "cards_as_of": "2026-11-24",
-  "last_successful_check": "2026-11-24 09:36 UTC",
+  "last_successful_check": "2026-11-24 10:16 UTC",
   "mode": "自动发现已运行；正式观点卡仍为人工构建的已核快照",
   "coverage_claim": "A–H 已做首轮公开入口检查；X、授权研报、音频和外部渠道未证明穷尽",
   "cards": [
@@ -359,15 +359,6 @@
   ],
   "leads": [
     {
-      "id": "RSS-13",
-      "date": "2026-10-10",
-      "title": "What Makes a Great Entrepreneur? | Ben Horowitz on Vintage x Vintage",
-      "description": "a16z 官方 RSS 发现的创始人相关 AI/投资节目；本人具体发言未证实。",
-      "url": "https://a16z.simplecast.com/episodes/what-makes-a-great-entrepreneur-ben-horowitz-on-vintage-x-vintage-FiiBzjgE",
-      "reason": "未取得可靠逐字稿与说话人定位；仅作候选。",
-      "entity": "a16z"
-    },
-    {
       "id": "L-GS-USREPORT",
       "date": "2026-11-23",
       "title": "US Economics Outlook 原报告落地页",
@@ -392,6 +383,15 @@
       "description": "高盛官网 2027 展望专题摘要明确美日股票超配、欧洲低配；属于资产配置重点。",
       "url": "https://www.goldmansachs.com/insights/goldman-sachs-research/global-equity-strategy-outlook-finding-value-in-growth",
       "reason": "公开仅见报告摘要；原研报、权重和基准口径未取得，未建正式卡。",
+      "entity": "高盛"
+    },
+    {
+      "id": "LIVE-29dca228467a",
+      "date": "2026-11-11",
+      "title": "Playing for Scale: The Future of Sports Investing",
+      "description": "官方 RSS 标题/简介：Investors are finding opportunities in sports as the media rights market surges and team valuations climb, Nicole Pullen Ross, head of the Sports and Entertainment Solutions within Goldman Sachs Private Wealth Management, explains",
+      "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD8882478019.mp3",
+      "reason": "新发现线索：仅核到 RSS 元数据，正文/音频说话人尚未核验，不能列为正式观点。",
       "entity": "高盛"
     },
     {
@@ -446,6 +446,15 @@
       "description": "官方 RSS 标注 Marc Andreessen、Ben Horowitz、Chris Dixon 参与，属于高优先级投资方向线索。",
       "url": "https://a16z.simplecast.com/episodes/tbc-gRs50MgP",
       "reason": "官方节目发现已完成；尚无可定位的本人发言逐字稿及说话人核验。",
+      "entity": "a16z"
+    },
+    {
+      "id": "RSS-13",
+      "date": "2026-10-10",
+      "title": "What Makes a Great Entrepreneur? | Ben Horowitz on Vintage x Vintage",
+      "description": "a16z 官方 RSS 发现的创始人相关 AI/投资节目；本人具体发言未证实。",
+      "url": "https://a16z.simplecast.com/episodes/what-makes-a-great-entrepreneur-ben-horowitz-on-vintage-x-vintage-FiiBzjgE",
+      "reason": "未取得可靠逐字稿与说话人定位；仅作候选。",
       "entity": "a16z"
     }
   ],
@@ -606,14 +615,14 @@
       "entity": "a16z",
       "status": "成功",
       "relevant_items": 1,
-      "checked_at": "2026-11-24T09:36:12.182291+00:00",
+      "checked_at": "2026-11-24T10:16:23.306350+00:00",
       "feed": "https://feeds.simplecast.com/JGE3yC0V"
     },
     {
       "entity": "高盛",
       "status": "成功",
       "relevant_items": 5,
-      "checked_at": "2026-11-24T09:36:12.182291+00:00",
+      "checked_at": "2026-11-24T10:16:23.306350+00:00",
       "feed": "https://feeds.megaphone.fm/GLD9218176758"
     }
   ]
