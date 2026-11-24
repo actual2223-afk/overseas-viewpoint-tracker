@@ -1,0 +1,741 @@
+{
+  "schema_version": 2,
+  "cards_as_of": "2026-11-24",
+  "cards": [
+    {
+      "id": "GS-6",
+      "entity": "高盛",
+      "theme": "股票与盈利",
+      "source_type": "官网解读",
+      "china": false,
+      "priority": "P0",
+      "headline": "标普 500：2027 年底 8,700 点",
+      "summary": "到 2027 年底总回报 18%；EPS +11%；下行情景约 5,600 点",
+      "claim": "高盛官网图表给出标普 500 在 2027 年底达到 8,700 点；正文预计截至 2027 年底总回报 18%。2027 年盈利增长 11%，低于今年的约 30%；若剔除巨头科技公司来自私募投资的“其他收入”，2027 年盈利增长 18%。",
+      "speaker": "Ben Snider",
+      "team": "高盛研究部（首席美股策略师）",
+      "date": "2026-11-19",
+      "horizon": "至 2027 年底",
+      "forecast_as_of": "2026-11-17（原文注明）",
+      "value": "2027 年底目标 8,700 点；到 2027 年底总回报 18%；2027 年 EPS +11%（剔除巨头科技公司私募投资“其他收入”后 +18%）；下行情景约 5,600 点",
+      "risk": "最大下行风险是 2028 年盈利前景恶化；半导体供给增加可能压缩利润率。下行情景：若一致预期 EPS 回到 30 年趋势、市盈率回到 30 年均值 17 倍，标普下跌约 25% 至约 5,600 点。",
+      "attribution": "官网编辑转述团队，不等同本人逐字原话",
+      "china_statement": "本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态",
+      "evidence_id": "E-GS6",
+      "sources": [
+        {
+          "n": 4,
+          "title": "高盛官网公开解读：Snider 美股展望",
+          "url": "https://www.goldmansachs.com/insights/articles/us-stocks-predicted-to-extend-historic-rally-as-gains-moderate/",
+          "type": "官网解读"
+        },
+        {
+          "n": 5,
+          "title": "高盛美股展望同页图表：2027 年底 8,700 点",
+          "url": "https://www.goldmansachs.com/insights/articles/us-stocks-predicted-to-extend-historic-rally-as-gains-moderate/",
+          "type": "官网解读"
+        }
+      ],
+      "notes": [
+        "Snider 美股展望里，18% 既是标普 500 到 2027 年底的总回报，也是剔除巨头科技公司私募投资“其他收入”后的 2027 年 EPS 增速。不含剔除时 EPS 增速是 11%。",
+        "全球股票策略团队（Oppenheimer）写 36%，美股策略团队（Snider）写约 30%。两个团队、两种估算，并列呈现，不合并。",
+        "16% 是未来 12 个月总回报（起算日 11 月 12 日）；18% 是到 2027 年底总回报（起算日 11 月 17 日）。期限和起算日都不同。",
+        "Snider 文章正文段落没有写 8,700，数字出自同页图表说明“2027 年底升至 8,700”。它是年底目标，不要与其他机构的“12 个月目标”直接比较。"
+      ]
+    },
+    {
+      "id": "GS-3",
+      "entity": "高盛",
+      "theme": "宏观与利率",
+      "source_type": "官网解读",
+      "china": false,
+      "priority": "P0",
+      "headline": "美联储：12 月、3 月加息，2027 年 12 月开始降息",
+      "summary": "终端利率 3.25–3.5%；核心 PCE 2027 年末 2.4%；布伦特年末 78 美元",
+      "claim": "美联储先在 12 月和明年 3 月加息，11 月 13 日官网文章写 2027 年 12 月开始降息，2028 年再降三次，终端利率 3.25–3.5%；核心 PCE 从 2026 年末 3.2% 降到 2027 年末 2.4%；布伦特油价 2027 年末降到 78 美元。",
+      "speaker": "Jan Hatzius",
+      "team": "高盛研究部",
+      "date": "2026-11-13",
+      "horizon": "至 2027 年末（降息延续到 2028 年）",
+      "forecast_as_of": "原文未单列基准日；材料发布 2026-11-13",
+      "value": "12 月、3 月各加息一次，2027 年 12 月降息一次，终端利率 3.25–3.5%；核心 PCE 2027 年末 2.4%；布伦特 2027 年末 78 美元",
+      "risk": "Hatzius 在播客中称市场定价的紧缩幅度比他的预期更多；另见 GS-8 美国经济团队文章把首次降息写作 2027 年 11 月（会议原定 12 月），两个发布日期的版本并列。",
+      "attribution": "官网编辑转述团队，不等同本人逐字原话",
+      "china_statement": "本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态",
+      "evidence_id": "E-GS3",
+      "sources": [
+        {
+          "n": 1,
+          "title": "高盛官网公开解读：2027 全球宏观与 AI 投资",
+          "url": "https://www.goldmansachs.com/insights/articles/the-global-economy-is-forecast-to-grow-2-point-8-percent-in-2027-as-oil-prices-decline",
+          "type": "官网解读"
+        },
+        {
+          "n": 2,
+          "title": "高盛 Exchanges：Hatzius 本人播客逐字稿",
+          "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/steady-global-economic-growth-in2027-but-risks-tilted-to-downside",
+          "type": "本人原话"
+        }
+      ],
+      "notes": [
+        "11 月 13 日全球宏观文章写 2027 年 12 月开始降息；11 月 17 日美国经济团队文章写“2027 年最后一次会议（11 月，原定 12 月）”开始降息。两处可能指同一次会议，但原文写法不同，按原文分别记录。",
+        "大宗团队预计 2027 年均价 88 美元、到 12 月初回落至 78 美元；全球宏观文章中的 78 美元同样是年末水平。引用时写清楚是年均还是年末。"
+      ]
+    },
+    {
+      "id": "GS-8",
+      "entity": "高盛",
+      "theme": "宏观与利率",
+      "source_type": "官网解读",
+      "china": false,
+      "priority": "P0",
+      "headline": "美国 GDP：2027 年 2.4%，高于一致预期 2.2%",
+      "summary": "按四季度同比计算；2027 年最后一次会议（11 月）开始降息",
+      "claim": "美国团队预计 2027 年美国 GDP 增长 2.4%（四季度同比），高于 2.2% 一致预期；其官网文章把首次降息写为 2027 年最后一次会议（11 月，原定 12 月）。",
+      "speaker": "David Mericle",
+      "team": "高盛美国经济团队",
+      "date": "2026-11-17",
+      "horizon": "2027 年及 2027 年底",
+      "forecast_as_of": "原文未单列基准日；材料发布 2026-11-17",
+      "value": "2.4%（Q4/Q4）；一致预期 2.2%；2027 年底 AI 硬件和知识产权支出年化 1.4 万亿美元；预计 2027 年最后一次会议在 11 月开始降息",
+      "risk": "与 11 月 13 日全球宏观文章的“12 月降息”会议月份需按版本并列。",
+      "attribution": "官网编辑转述团队，不等同本人逐字原话",
+      "china_statement": "本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态",
+      "evidence_id": "E-GS8",
+      "sources": [
+        {
+          "n": 11,
+          "title": "高盛官网公开解读：美国 2027 年经济展望",
+          "url": "https://www.goldmansachs.com/insights/articles/why-the-us-economy-is-forecast-to-grow-faster-than-consensus-estimates",
+          "type": "官网解读"
+        }
+      ],
+      "notes": [
+        "11 月 13 日全球宏观文章写 2027 年 12 月开始降息；11 月 17 日美国经济团队文章写“2027 年最后一次会议（11 月，原定 12 月）”开始降息。两处可能指同一次会议，但原文写法不同，按原文分别记录。",
+        "1.8 万亿美元是 2027 年全球名义 AI 投资；1.4 万亿美元是美国 AI 相关硬件和知识产权支出在 2027 年底的年化水平。范围和时点都不同。"
+      ]
+    },
+    {
+      "id": "GS-9",
+      "entity": "高盛",
+      "theme": "大类资产",
+      "source_type": "官网解读",
+      "china": true,
+      "priority": "P0",
+      "headline": "布伦特：2027 年均价 88 美元，12 月初 78 美元",
+      "summary": "团队估计中国石油需求总量已在 2025 年见顶",
+      "claim": "大宗商品团队预计布伦特在基准情景下 2027 年平均 88 美元/桶、到 12 月初回落至 78 美元/桶；团队估计中国石油需求总量已在 2025 年见顶。",
+      "speaker": "Daan Struyven",
+      "team": "高盛大宗商品研究团队",
+      "date": "2026-11-18",
+      "horizon": "2027 年全年及年末",
+      "forecast_as_of": "2026-11-17（原文现价基准）",
+      "value": "2027 年均价 88 美元/桶；2027 年 12 月初 78 美元/桶",
+      "risk": "预测以没有重大局势变化为基准；极端情景与年均价不能混用。",
+      "attribution": "官网编辑转述团队，不等同本人逐字原话",
+      "china_statement": "该篇原文有中国相关表述，见对应定位",
+      "evidence_id": "E-GS9",
+      "sources": [
+        {
+          "n": 12,
+          "title": "高盛官网公开解读：2027 年油价和中国需求",
+          "url": "https://www.goldmansachs.com/insights/articles/oil-is-estimated-to-ease-in-2027-as-suppliers-adapt-to-hormuz-disruption",
+          "type": "官网解读"
+        }
+      ],
+      "notes": [
+        "大宗团队预计 2027 年均价 88 美元、到 12 月初回落至 78 美元；全球宏观文章中的 78 美元同样是年末水平。引用时写清楚是年均还是年末。"
+      ]
+    },
+    {
+      "id": "GS-1",
+      "entity": "高盛",
+      "theme": "宏观与利率",
+      "source_type": "官网解读",
+      "china": true,
+      "priority": "P1",
+      "headline": "全球 GDP：2027 年增长 2.8%，中国 4.5%",
+      "summary": "与一致预期持平；中国 4.5%（一致预期 4.4%）；风险偏下行",
+      "claim": "2027 年全球增长 2.8%，与市场一致预期持平；美国、日本、英国预计快于一致预期，欧元区偏弱；中国 4.5%（一致预期 4.4%）。",
+      "speaker": "Jan Hatzius",
+      "team": "高盛研究部（首席经济学家、研究部主管）",
+      "date": "2026-11-13",
+      "horizon": "2027 年全年",
+      "forecast_as_of": "原文未单列基准日；材料发布 2026-11-13",
+      "value": "2.8%",
+      "risk": "风险偏向下行：伊朗局势再升级推高能源价格；大额财政赤字推高长端利率（尤其法国）；AI 资本开支不及预期。",
+      "attribution": "官网编辑转述团队，不等同本人逐字原话",
+      "china_statement": "该篇原文有中国相关表述，见对应定位",
+      "evidence_id": "E-GS1",
+      "sources": [
+        {
+          "n": 1,
+          "title": "高盛官网公开解读：2027 全球宏观与 AI 投资",
+          "url": "https://www.goldmansachs.com/insights/articles/the-global-economy-is-forecast-to-grow-2-point-8-percent-in-2027-as-oil-prices-decline",
+          "type": "官网解读"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GS-2",
+      "entity": "高盛",
+      "theme": "AI 投资周期",
+      "source_type": "官网解读",
+      "china": false,
+      "priority": "P1",
+      "headline": "AI 投资：2027 年全球名义 1.8 万亿美元",
+      "summary": "2026 年为 1.1 万亿；拉动全球 GDP 增速 0.4 个百分点",
+      "claim": "全球名义 AI 投资将从 2026 年的 1.1 万亿美元升至 2027 年的 1.8 万亿美元，增量主要来自美国硬件支出增加逾 5,000 亿美元；AI 投资拉动全球 GDP 增速 0.4 个百分点，拉动美国“真实”GDP 增速 0.6 个百分点。",
+      "speaker": "Jan Hatzius",
+      "team": "高盛研究部",
+      "date": "2026-11-13",
+      "horizon": "2027 年",
+      "forecast_as_of": "原文未单列基准日；材料发布 2026-11-13",
+      "value": "1.8 万亿美元；全球 +0.4 个百分点；美国“真实”GDP +0.6 个百分点",
+      "risk": "AI 资本开支可能因产能约束、监管、信用压力或需求走弱而不及预期；AI 对就业的影响 2027 年较小，2028–2029 年更明显。",
+      "attribution": "官网编辑转述团队，不等同本人逐字原话",
+      "china_statement": "本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态",
+      "evidence_id": "E-GS2",
+      "sources": [
+        {
+          "n": 1,
+          "title": "高盛官网公开解读：2027 全球宏观与 AI 投资",
+          "url": "https://www.goldmansachs.com/insights/articles/the-global-economy-is-forecast-to-grow-2-point-8-percent-in-2027-as-oil-prices-decline",
+          "type": "官网解读"
+        }
+      ],
+      "notes": [
+        "1.8 万亿美元是 2027 年全球名义 AI 投资；1.4 万亿美元是美国 AI 相关硬件和知识产权支出在 2027 年底的年化水平。范围和时点都不同。",
+        "0.4 个百分点是对全球 GDP 增速；0.6 个百分点是对高盛定义的美国“真实”GDP 增速（原文加了引号），计算范围不同。"
+      ]
+    },
+    {
+      "id": "GS-4",
+      "entity": "高盛",
+      "theme": "股票与盈利",
+      "source_type": "官网解读",
+      "china": false,
+      "priority": "P1",
+      "headline": "全球股票：牛市延续，超配美日、低配欧洲",
+      "summary": "12 个月总回报：标普 16%、MSCI EM 21%；TOPIX 24%",
+      "claim": "全球股票牛市延续但波动加大；风险调整后超配美国和日本、低配欧洲。主线是成长股、精选防御股、受益油价和利率下行的公司。",
+      "speaker": "Peter Oppenheimer",
+      "team": "高盛研究部（首席全球股票策略师）",
+      "date": "2026-11-16",
+      "horizon": "未来 12 个月",
+      "forecast_as_of": "2026-11-12（原文注明）",
+      "value": "标普 500 总回报 16%；STOXX 600 总回报 13%（美元计）；TOPIX 24%；MSCI EM 总回报 21%",
+      "risk": "盈利放缓、金融条件收紧、借贷成本高、AI 周期提前见顶；经济风险偏下行。",
+      "attribution": "官网编辑转述团队，不等同本人逐字原话",
+      "china_statement": "本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态",
+      "evidence_id": "E-GS4",
+      "sources": [
+        {
+          "n": 3,
+          "title": "高盛官网公开解读：Oppenheimer 全球股票展望",
+          "url": "https://www.goldmansachs.com/insights/articles/global-stocks-expected-to-rally-in-2027-as-earnings-growth-slows",
+          "type": "官网解读"
+        }
+      ],
+      "notes": [
+        "16% 是未来 12 个月总回报（起算日 11 月 12 日）；18% 是到 2027 年底总回报（起算日 11 月 17 日）。期限和起算日都不同。"
+      ]
+    },
+    {
+      "id": "GS-5",
+      "entity": "高盛",
+      "theme": "股票与盈利",
+      "source_type": "官网解读",
+      "china": false,
+      "priority": "P1",
+      "headline": "盈利增速：2027 年各地区明显放缓",
+      "summary": "美国 36%→11%；日本 24%→9%；亚洲近 80%→不到 30%",
+      "claim": "2027 年各地区盈利增速大幅放缓：美国从 36% 降到 11%，欧洲从约 18% 降到 7%，日本从 24% 降到 9%，亚洲从近 80% 降到不到 30%。",
+      "speaker": "Peter Oppenheimer",
+      "team": "高盛研究部（全球股票策略团队）",
+      "date": "2026-11-16",
+      "horizon": "2026 年→2027 年",
+      "forecast_as_of": "原文未单列基准日；材料发布 2026-11-16",
+      "value": "美国 36%→11%；欧洲约 18%→7%；日本 24%→9%；亚洲近 80%→不到 30%",
+      "risk": "—",
+      "attribution": "官网编辑转述团队，不等同本人逐字原话",
+      "china_statement": "本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态",
+      "evidence_id": "E-GS5",
+      "sources": [
+        {
+          "n": 3,
+          "title": "高盛官网公开解读：Oppenheimer 全球股票展望",
+          "url": "https://www.goldmansachs.com/insights/articles/global-stocks-expected-to-rally-in-2027-as-earnings-growth-slows",
+          "type": "官网解读"
+        }
+      ],
+      "notes": [
+        "全球股票策略团队（Oppenheimer）写 36%，美股策略团队（Snider）写约 30%。两个团队、两种估算，并列呈现，不合并。"
+      ]
+    },
+    {
+      "id": "GS-7",
+      "entity": "高盛",
+      "theme": "大类资产",
+      "source_type": "报告摘要页",
+      "china": false,
+      "priority": "P1",
+      "headline": "跨资产：周期成熟、美元更具周期性、债券恢复对冲价值",
+      "summary": "仅见公开摘要，研报正文未取得，无具体数字",
+      "claim": "2027 年主导市场的主题包括：市场周期进入成熟期、美元走势更具周期性、债券重新具备对冲价值。",
+      "speaker": "高盛研究部宏观策略团队",
+      "team": "高盛研究部",
+      "date": "2026-11-16",
+      "horizon": "2027 年",
+      "forecast_as_of": "原文未单列基准日；材料发布 2026-11-16",
+      "value": "无数字",
+      "risk": "—",
+      "attribution": "官网编辑转述团队，不等同本人逐字原话",
+      "china_statement": "本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态",
+      "evidence_id": "E-GS7",
+      "sources": [
+        {
+          "n": 6,
+          "title": "高盛 Global Markets Outlook: Growing Pains 报告落地页",
+          "url": "https://www.goldmansachs.com/insights/goldman-sachs-research/global-markets-outlook-growing-pains",
+          "type": "报告摘要页"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "MA-1",
+      "entity": "a16z",
+      "theme": "AI 应用与软件",
+      "source_type": "本人署名",
+      "china": false,
+      "priority": "P1",
+      "headline": "AI 编程：头部公司代码几乎都由智能体编写（Andreessen 称）",
+      "summary": "举例：Cognition 生产代码中 Devin 编写占比一年内 13%→90% 以上",
+      "claim": "Andreessen 称，问任何一家头部公司的软件工程师，都会说智能体写了他们几乎全部代码。他举 Cognition 自身为例：其生产代码中由 Devin 编写的比例一年内从 13% 升至 90% 以上。工程师的杠杆随之放大（10 倍工程师变成 100 倍）。",
+      "speaker": "Marc Andreessen",
+      "team": "a16z 联合创始人",
+      "date": "2026-09-09",
+      "horizon": "过去一年",
+      "forecast_as_of": "不适用：定性判断或历史比较；材料发布 2026-09-09",
+      "value": "Cognition 生产代码中由 Devin 编写的比例：一年内 13%→90% 以上",
+      "risk": "作者是被投公司的投资方，数据来自被投公司自身。",
+      "attribution": "本人署名材料",
+      "china_statement": "本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态",
+      "evidence_id": "E-MA1",
+      "sources": [
+        {
+          "n": 7,
+          "title": "Marc Andreessen 署名：Investing in Cognition",
+          "url": "https://a16z.com/announcement/investing-in-cognition/",
+          "type": "本人署名"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "MA-2",
+      "entity": "a16z",
+      "theme": "AI 应用与软件",
+      "source_type": "本人署名",
+      "china": false,
+      "priority": "P1",
+      "headline": "企业智能体：先“混乱”进入，再被治理收编",
+      "summary": "企业不该禁止，应搭建“智能体栖息地”加以引导",
+      "claim": "AI 智能体正以“混乱”方式进入企业，就像早期个人电脑和电子表格；这恰恰是一项技术真会改变世界的信号。企业不该禁止，而应搭建“智能体栖息地”去引导；做到的“自动驾驶公司”会明显拉开差距。",
+      "speaker": "Marc Andreessen",
+      "team": "a16z 联合创始人",
+      "date": "2026-10-26",
+      "horizon": "—",
+      "forecast_as_of": "不适用：定性判断或历史比较；材料发布 2026-10-26",
+      "value": "无数字",
+      "risk": "—",
+      "attribution": "本人署名材料",
+      "china_statement": "本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态",
+      "evidence_id": "E-MA2",
+      "sources": [
+        {
+          "n": 8,
+          "title": "Marc Andreessen 署名：Let Chaos Reign, and Then Rein In Chaos",
+          "url": "https://a16z.com/let-chaos-reign-and-then-rein-in-chaos/",
+          "type": "本人署名"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "BH-1",
+      "entity": "a16z",
+      "theme": "AI 应用与软件",
+      "source_type": "本人署名",
+      "china": false,
+      "priority": "P1",
+      "headline": "智能体化企业：例行执行变便宜，判断更值钱",
+      "summary": "执行与判断是互补品；优秀人才更值钱（与 McGuiness 合著）",
+      "claim": "智能体化正在瓦解 20 世纪的管理方式，长期可能走向“人人都是管理者”；执行和判断是互补品，例行执行变便宜会抬高对判断的需求，因此优秀人才更值钱。",
+      "speaker": "Ben Horowitz（与 Michael McGuiness 合著）",
+      "team": "a16z 联合创始人",
+      "date": "2026-10-27",
+      "horizon": "—",
+      "forecast_as_of": "不适用：定性判断或历史比较；材料发布 2026-10-27",
+      "value": "无数字",
+      "risk": "文章未讨论 AI 泡沫、需求或定价风险。",
+      "attribution": "合著仅归共同作者",
+      "china_statement": "本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态",
+      "evidence_id": "E-BH1",
+      "sources": [
+        {
+          "n": 9,
+          "title": "Ben Horowitz、Michael McGuiness 合著：Databricks & the Future of the Firm",
+          "url": "https://a16z.com/databricks-the-future-of-the-firm/",
+          "type": "本人署名"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "A16Z-1",
+      "entity": "a16z",
+      "theme": "AI 应用与软件",
+      "source_type": "本人署名",
+      "china": false,
+      "priority": "P1",
+      "headline": "AI 软件：应让软件更强大，而不只是复制既有软件",
+      "summary": "五人联名投资公告，含 Andreessen、Horowitz",
+      "claim": "a16z 五位联合署名者在 TypeSafe 投资公告中表示，AI 应让软件更强大，而不只是自动复制既有软件。",
+      "speaker": "Marc Andreessen、Ben Horowitz 等五人联合署名",
+      "team": "a16z 投资团队",
+      "date": "2026-10-09",
+      "horizon": "长期定性判断",
+      "forecast_as_of": "不适用：定性判断或历史比较；材料发布 2026-10-09",
+      "value": "无数字",
+      "risk": "利益关系：投资方谈被投企业；不能把某段单独归于 Marc 或 Ben。",
+      "attribution": "合著仅归共同作者",
+      "china_statement": "本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态",
+      "evidence_id": "E-A16Z1",
+      "sources": [
+        {
+          "n": 15,
+          "title": "a16z 联合署名：Investing in TypeSafe AI",
+          "url": "https://a16z.com/announcement/investing-in-typesafe-ai/",
+          "type": "本人署名"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "checks": [
+    {
+      "title": "18%：一个是标普总回报，一个是盈利增速",
+      "cards": [
+        "GS-6"
+      ],
+      "detail": "Snider 美股展望里，18% 既是标普 500 到 2027 年底的总回报，也是剔除巨头科技公司私募投资“其他收入”后的 2027 年 EPS 增速。不含剔除时 EPS 增速是 11%。"
+    },
+    {
+      "title": "美国 2026 年盈利增速：一个团队写 36%，另一个写约 30%",
+      "cards": [
+        "GS-5",
+        "GS-6"
+      ],
+      "detail": "全球股票策略团队（Oppenheimer）写 36%，美股策略团队（Snider）写约 30%。两个团队、两种估算，并列呈现，不合并。"
+    },
+    {
+      "title": "标普回报 16% 和 18%：期限和起算日不同",
+      "cards": [
+        "GS-4",
+        "GS-6"
+      ],
+      "detail": "16% 是未来 12 个月总回报（起算日 11 月 12 日）；18% 是到 2027 年底总回报（起算日 11 月 17 日）。期限和起算日都不同。"
+    },
+    {
+      "title": "8,700 点：是 2027 年底目标，数字出自图表",
+      "cards": [
+        "GS-6"
+      ],
+      "detail": "Snider 文章正文段落没有写 8,700，数字出自同页图表说明“2027 年底升至 8,700”。它是年底目标，不要与其他机构的“12 个月目标”直接比较。"
+    },
+    {
+      "title": "首次降息：一篇写 12 月，一篇写 11 月",
+      "cards": [
+        "GS-3",
+        "GS-8"
+      ],
+      "detail": "11 月 13 日全球宏观文章写 2027 年 12 月开始降息；11 月 17 日美国经济团队文章写“2027 年最后一次会议（11 月，原定 12 月）”开始降息。两处可能指同一次会议，但原文写法不同，按原文分别记录。"
+    },
+    {
+      "title": "布伦特 88 和 78 美元：88 是年均价，78 是年末价",
+      "cards": [
+        "GS-3",
+        "GS-9"
+      ],
+      "detail": "大宗团队预计 2027 年均价 88 美元、到 12 月初回落至 78 美元；全球宏观文章中的 78 美元同样是年末水平。引用时写清楚是年均还是年末。"
+    },
+    {
+      "title": "AI 1.8 万亿和 1.4 万亿美元：一个是全球投资，一个是美国年化支出",
+      "cards": [
+        "GS-2",
+        "GS-8"
+      ],
+      "detail": "1.8 万亿美元是 2027 年全球名义 AI 投资；1.4 万亿美元是美国 AI 相关硬件和知识产权支出在 2027 年底的年化水平。范围和时点都不同。"
+    },
+    {
+      "title": "AI 拉动 GDP 0.4 和 0.6 个百分点：一个是全球，一个是美国",
+      "cards": [
+        "GS-2"
+      ],
+      "detail": "0.4 个百分点是对全球 GDP 增速；0.6 个百分点是对高盛定义的美国“真实”GDP 增速（原文加了引号），计算范围不同。"
+    }
+  ],
+  "highlights": {
+    "numbers": [
+      {
+        "card": "GS-6",
+        "big": "8,700",
+        "label": "标普 500 · 2027 年底目标",
+        "who": "高盛 · Snider"
+      },
+      {
+        "card": "GS-1",
+        "big": "2.8%",
+        "label": "全球 GDP · 2027 年",
+        "who": "高盛 · Hatzius"
+      },
+      {
+        "card": "GS-8",
+        "big": "2.4%",
+        "label": "美国 GDP · 2027 年（Q4/Q4）",
+        "who": "高盛 · Mericle"
+      },
+      {
+        "card": "GS-3",
+        "big": "3.25–3.5%",
+        "label": "美联储终端利率",
+        "who": "高盛 · Hatzius"
+      },
+      {
+        "card": "GS-9",
+        "big": "88 / 78",
+        "label": "布伦特 · 2027 年均 / 12 月初（美元）",
+        "who": "高盛 · Struyven"
+      },
+      {
+        "card": "GS-2",
+        "big": "1.8 万亿",
+        "label": "全球名义 AI 投资 · 2027 年（美元）",
+        "who": "高盛 · Hatzius"
+      }
+    ],
+    "a16z": [
+      "MA-1",
+      "MA-2",
+      "BH-1"
+    ],
+    "gs": [
+      "GS-6",
+      "GS-3",
+      "GS-8",
+      "GS-9"
+    ]
+  },
+  "channels": [
+    {
+      "channel": "A",
+      "name": "官方一手",
+      "goldman": {
+        "status": "定位",
+        "result": "2027专题6篇文章、5个报告落地页和11月播客3期已有逐项去向；报告全文未取得",
+        "links": [
+          "https://www.goldmansachs.com/insights/outlooks/2027-outlooks"
+        ]
+      },
+      "a16z": {
+        "status": "定位/受限",
+        "result": "官网作者页、播客RSS 84期已列；10期元数据命中；本人X账号403，74期元数据未命中并非音频核除",
+        "links": [
+          "https://feeds.simplecast.com/JGE3yC0V",
+          "https://x.com/pmarca",
+          "https://x.com/bhorowitz"
+        ]
+      }
+    },
+    {
+      "channel": "B",
+      "name": "制度性披露",
+      "goldman": {
+        "status": "定位",
+        "result": "IR presentations目录最新可见2026-10-13三季度业绩电话会；这不是GIR 2027策略，未据此新增策略卡；未做180项历史逐条筛选",
+        "links": [
+          "https://www.goldmansachs.com/investor-relations/presentations"
+        ]
+      },
+      "a16z": {
+        "status": "线索",
+        "result": "联储工作组入口已尝试抓取，186个为HTML链接不是186份发言；未定位创始人对本期AI投资判断的制度性披露",
+        "links": [
+          "https://www.federalreserve.gov/monetarypolicy/productivity-and-jobs-task-force.htm"
+        ]
+      }
+    },
+    {
+      "channel": "C",
+      "name": "公开活动",
+      "goldman": {
+        "status": "线索",
+        "result": "2027官网专题含宏观播客活动，官方逐字稿可查；专题外会议目录未形成完整条目清单",
+        "links": [
+          "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/steady-global-economic-growth-in2027-but-risks-tilted-to-downside"
+        ]
+      },
+      "a16z": {
+        "status": "线索",
+        "result": "10月22日Frontier节目确认Marc和Ben参与，但页面署名不等于每句说话人；无逐字稿不写本人原话",
+        "links": [
+          "https://a16z.com/podcast/the-frontier-ideas-a16z-wants-to-fund-marc-andreessen-ben-horowitz-chris-dixon/"
+        ]
+      }
+    },
+    {
+      "channel": "D",
+      "name": "外部访谈",
+      "goldman": {
+        "status": "线索",
+        "result": "已检索公开媒体/采访词组，尚未建立2027策略师外部访谈的可复核全集；管理层Waldron官方访谈须与GIR分开",
+        "links": [
+          "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/john-waldron-on-gdp-growth-ai-and-the-m-a-outlook"
+        ]
+      },
+      "a16z": {
+        "status": "线索",
+        "result": "Ben于10月10日参加Vintage x Vintage外部访谈，官网简介谈AI周期及投资者标准；尚无逐字稿与时间码，不能拆成本人逐句观点",
+        "links": [
+          "https://a16z.com/podcast/what-makes-a-great-entrepreneur-ben-horowitz-on-vintage-x-vintage/"
+        ]
+      }
+    },
+    {
+      "channel": "E",
+      "name": "授权研报",
+      "goldman": {
+        "status": "受限",
+        "result": "官网报告页可读摘要，Read the Report指向gspublishing；无授权登录，不声称读到原版全文",
+        "links": [
+          "https://www.goldmansachs.com/insights/goldman-sachs-research/global-equity-strategy-outlook-finding-value-in-growth"
+        ]
+      },
+      "a16z": {
+        "status": "不适用",
+        "result": "不以投行授权研报要求套用VC；改核本人联合署名投资公告和投资披露",
+        "links": [
+          "https://a16z.com/announcement/investing-in-typesafe-ai/"
+        ]
+      }
+    },
+    {
+      "channel": "F",
+      "name": "媒体及反向检索",
+      "goldman": {
+        "status": "线索",
+        "result": "中英文反查发现H股增持、12% 与 18% 盈利增速的媒体报道；未获对应原研报，仍单列未确认",
+        "links": [
+          "https://www.scmp.com/business/markets/article/3374550/goldman-sachs-morgan-stanley-diverge-2027-calls-h-shares-vs-shares",
+          "https://www.goldmansachs.com/insights/articles/global-stocks-expected-to-rally-in-2027-as-earnings-growth-slows/"
+        ]
+      },
+      "a16z": {
+        "status": "线索",
+        "result": "搜索创始人+AI+外部访谈，找到Vintage节目及Frontier页面；X搜索无可信逐帖结果，未证明搜索饱和",
+        "links": [
+          "https://a16z.com/podcast/what-makes-a-great-entrepreneur-ben-horowitz-on-vintage-x-vintage/"
+        ]
+      }
+    },
+    {
+      "channel": "G",
+      "name": "言行对照数据",
+      "goldman": {
+        "status": "定位/线索",
+        "result": "官网公布美国GDP 2.4%对一致预期2.2%、中国GDP 4.5%对4.4%；一致预期来自高盛文章引述，未独立取得数据库",
+        "links": [
+          "https://www.goldmansachs.com/insights/articles/why-the-us-economy-is-forecast-to-grow-faster-than-consensus-estimates/"
+        ]
+      },
+      "a16z": {
+        "status": "定位/线索",
+        "result": "联合署名TypeSafe AI投资公告可核投资动作；不能把机构投资自动归为Marc或Ben个人预测，投资回报未取得",
+        "links": [
+          "https://a16z.com/announcement/investing-in-typesafe-ai/"
+        ]
+      }
+    },
+    {
+      "channel": "H",
+      "name": "中国相关渠道",
+      "goldman": {
+        "status": "定位/线索",
+        "result": "官方宏观文章中国GDP 4.5%；H股超配及12%对18%仅见媒体转述，原研报缺失，禁止写入已核一页结论",
+        "links": [
+          "https://www.goldmansachs.com/insights/articles/the-global-economy-is-forecast-to-grow-2-point-8-percent-in-2027-as-oil-prices-decline/",
+          "https://www.scmp.com/business/markets/article/3374550/goldman-sachs-morgan-stanley-diverge-2027-calls-h-shares-vs-shares"
+        ]
+      },
+      "a16z": {
+        "status": "线索",
+        "result": "Marc一月2026节目简介提及中美AI；超出近三月窗口，不能冒充近期观点；近三月本人中国判断尚未证实",
+        "links": [
+          "https://a16z.com/podcast/marc-andreessens-2026-outlook-ai-timelines-us-vs-china-and-the-price-of-ai/"
+        ]
+      }
+    }
+  ],
+  "coverage_note": "A–H 已做首轮公开入口检查；X、授权研报、音频和外部访谈尚未证明穷尽。",
+  "entities": {
+    "高盛": {
+      "key": "gs",
+      "tab": "高盛 · 2027 投资策略",
+      "title": "高盛 2027 年度展望",
+      "window": "2027 年度展望发布期（2026 年 11 月起）",
+      "people": [
+        {
+          "name": "Jan Hatzius",
+          "role": "首席经济学家、研究部主管"
+        },
+        {
+          "name": "Peter Oppenheimer",
+          "role": "首席全球股票策略师"
+        },
+        {
+          "name": "Ben Snider",
+          "role": "首席美股策略师"
+        },
+        {
+          "name": "David Mericle",
+          "role": "首席美国经济学家"
+        },
+        {
+          "name": "Daan Struyven",
+          "role": "全球大宗商品研究联席主管"
+        }
+      ],
+      "note": "高盛官网 Insights 文章由 Executive Office 撰写、转述研究部报告，不等同研报原文或本人逐字原话；研报全文需授权，未取得。"
+    },
+    "a16z": {
+      "key": "az",
+      "tab": "a16z · 创始人 AI 判断",
+      "title": "a16z 创始人 AI 判断",
+      "window": "近 3 个月（2026 年 9 月起）",
+      "people": [
+        {
+          "name": "Marc Andreessen",
+          "role": "联合创始人"
+        },
+        {
+          "name": "Ben Horowitz",
+          "role": "联合创始人"
+        }
+      ],
+      "note": "只收本人署名、合著或联名文章；播客节目在没有逐字稿和说话人定位前只列为线索。a16z 是文中多家公司的投资方，相关表述标明利益关系。"
+    }
+  }
+}
