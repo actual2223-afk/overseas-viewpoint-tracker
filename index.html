@@ -1,25 +1,442 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="robots" content="noindex, nofollow"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#0d1824"><title>海外智库观点追踪系统｜Overseas Viewpoint Tracker</title>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<title>海外智库观点追踪系统｜Overseas Viewpoint Tracker</title>
 <style>
-:root{--ink:#16243a;--muted:#67758b;--line:#dfe5ea;--paper:#f5f7f8;--white:#fff;--blue:#176caa;--navy:#0d1824;--teal:#0e806f;--gold:#b87a20;--shadow:0 18px 48px rgba(17,37,58,.08)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.55}a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid #62adcf;outline-offset:3px}.top{position:sticky;top:0;z-index:10;background:rgba(13,24,36,.96);color:#fff;backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.1)}.top-inner{max-width:1180px;margin:auto;padding:12px 24px;display:flex;align-items:center;gap:24px}.brand{display:flex;align-items:center;gap:10px;font-size:15px;font-weight:800;letter-spacing:.02em;white-space:nowrap}.mark{width:27px;height:27px;border:2px solid #5dc8ba;border-radius:8px;display:grid;place-items:center;font-size:16px;color:#7ce0d0}.top nav{display:flex;gap:5px;overflow:auto;scrollbar-width:none}.top nav::-webkit-scrollbar{display:none}.top nav button{border:0;background:transparent;color:#aebdca;padding:9px 14px;border-radius:999px;white-space:nowrap;font-size:13px;font-weight:650}.top nav button.active{background:#fff;color:var(--navy)}.top-side{margin-left:auto;font-size:11px;color:#9fb3c0;white-space:nowrap}.wrap{max-width:1180px;margin:auto;padding:0 24px 90px}.hero{background:radial-gradient(circle at 87% 13%,#25495c 0,transparent 34%),linear-gradient(140deg,#11293c,#0d1824 70%);color:#fff;border-radius:0 0 26px 26px;padding:52px 54px 46px;margin:0 -24px 28px;overflow:hidden;position:relative}.hero:after{content:"";position:absolute;right:-65px;bottom:-130px;width:360px;height:360px;border:1px solid rgba(103,217,193,.18);border-radius:50%;box-shadow:0 0 0 70px rgba(103,217,193,.025),0 0 0 140px rgba(103,217,193,.02)}.eyebrow{color:#78d0be;letter-spacing:.18em;font-weight:800;font-size:11px;text-transform:uppercase}.hero h1{font-size:clamp(29px,4vw,50px);line-height:1.18;letter-spacing:-.035em;margin:12px 0 16px;max-width:790px}.hero p{max-width:680px;color:#c3d1da;margin:0;font-size:14px}.hero-meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}.hero-meta span{border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.06);padding:7px 11px;border-radius:9px;color:#e4edf0;font-size:12px}.status{display:flex;align-items:flex-start;gap:10px;background:#fff7e8;border:1px solid #eedbb6;color:#684b20;padding:11px 15px;border-radius:12px;font-size:12px;margin-bottom:26px}.status b{white-space:nowrap}.section-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin:34px 0 15px}.section-head h2{font-size:20px;margin:0;letter-spacing:-.025em}.section-head small{color:var(--muted);font-size:12px}.focus{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.feature,.card,.panel{background:#fff;border:1px solid var(--line);border-radius:17px;box-shadow:var(--shadow)}.feature{padding:23px;min-height:180px;display:flex;flex-direction:column;gap:12px;position:relative;overflow:hidden}.feature:after{content:"↗";position:absolute;right:21px;top:14px;color:#a9c2c5;font-size:24px}.feature .label,.tag{font-size:11px;font-weight:800;letter-spacing:.05em;color:var(--teal)}.feature h3{font-size:20px;line-height:1.35;margin:0;max-width:90%}.feature p{font-size:12px;color:var(--muted);margin:0}.feature .open{margin-top:auto;font-size:12px;font-weight:750;color:var(--blue)}.controls{display:flex;gap:8px;overflow:auto;padding:2px 0 12px;scrollbar-width:none}.controls button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 13px;color:#465b70;font-size:12px;white-space:nowrap}.controls button.active{color:#fff;background:var(--navy);border-color:var(--navy)}.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}.card{padding:20px 21px;scroll-margin-top:85px}.card-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:11px;color:var(--muted)}.pill{padding:3px 7px;border-radius:6px;background:#e8f1f2;color:#116b64;font-weight:800}.pill.hot{background:#fff0da;color:#96620e}.card h3{margin:13px 0 8px;font-size:17px;line-height:1.4}.card .claim{font-size:13px;margin:0 0 16px;color:#304154}.card .foot{border-top:1px solid #edf0f2;padding-top:12px;display:flex;justify-content:space-between;gap:10px;align-items:center;color:var(--muted);font-size:11px}.card .foot a,.lead a,.source-link{color:var(--blue);font-weight:750}.card details{margin-top:10px;font-size:12px;color:#536579}.card summary{cursor:pointer;color:#245477;font-weight:700}.detail{margin-top:9px;background:#f6f9fa;border-radius:9px;padding:10px}.detail p{margin:4px 0}.lead-list{display:grid;gap:10px}.lead{background:#fff;border:1px solid var(--line);border-radius:13px;padding:16px 19px;display:flex;gap:16px;align-items:flex-start}.lead strong{font-size:13px}.lead p{font-size:12px;color:var(--muted);margin:5px 0}.lead .lead-date{font-size:11px;color:#8a98a5;white-space:nowrap;margin-left:auto}.audit{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.audit .row{display:flex;gap:10px;align-items:flex-start;padding:12px 14px;background:#fff;border:1px solid var(--line);border-radius:10px;font-size:12px}.audit .letter{background:#e8f1f2;color:#096e69;border-radius:6px;width:23px;height:23px;display:grid;place-items:center;font-weight:800;flex:none}.audit strong{font-size:12px}.audit small{display:block;color:var(--muted);margin-top:2px}.panel{padding:21px}.panel p{font-size:12px;color:var(--muted);margin:0 0 8px}.empty{padding:30px;color:var(--muted);background:#fff;border:1px dashed var(--line);border-radius:12px}.bottom{border-top:1px solid var(--line);margin-top:42px;padding-top:16px;font-size:11px;color:var(--muted)}[hidden]{display:none!important}@media(max-width:720px){.top-inner{padding:10px 16px;gap:10px;display:block}.brand{margin-bottom:8px;font-size:14px}.top-side{display:none}.top nav button{padding:7px 13px}.wrap{padding:0 16px 70px}.hero{margin:0 -16px 19px;border-radius:0 0 19px 19px;padding:32px 22px 28px}.hero h1{font-size:31px}.hero p{font-size:12px}.hero-meta{gap:7px;margin-top:20px}.hero-meta span{font-size:10px}.section-head{margin:27px 0 12px}.section-head h2{font-size:18px}.focus,.cards,.audit{grid-template-columns:1fr}.feature{min-height:150px;padding:19px}.feature h3{font-size:18px}.card{padding:18px}.lead{display:block}.lead .lead-date{display:block;margin:7px 0 0}.status{font-size:11px}.status b{white-space:normal}}
-</style></head><body><header class="top"><div class="top-inner"><div class="brand"><span class="mark">⌁</span> 海外智库观点追踪系统 <span style="font-size:10px;color:#9fb3c0;font-weight:500">OVERSEAS VIEWPOINT TRACKER</span></div><nav aria-label="选择研究对象"><button data-entity="总览" class="active">总览</button><button data-entity="高盛">高盛 · 2027策略</button><button data-entity="a16z">a16z · 创始人</button></nav><span class="top-side">研究工作台 · 首期演示</span></div></header>
-<main class="wrap"><section class="hero"><div class="eyebrow">OVERSEAS VIEWPOINT TRACKER</div><h1 id="hero-title">把重要判断，追到原始出处。</h1><p id="hero-sub">高盛 2027 投资策略与 a16z 创始人 AI 判断。重点、归属、口径和未确认线索分开呈现。</p><div class="hero-meta"><span id="stamp">数据截至 2026-11-24</span><span id="n-cards">已核观点</span><span>原文链接 · 底稿编号</span></div></section>
-<div class="status"><b>● 本期状态</b><span id="status-text">首期演示数据，尚未接通定时自动更新。</span></div>
-<section id="focus-section"><div class="section-head"><h2>先看重点</h2><small>只呈现已有来源的判断</small></div><div class="focus" id="focus"></div></section>
-<section><div class="section-head"><h2 id="cards-heading">已核观点</h2><small id="cards-count"></small></div><div class="controls" id="filters" aria-label="观点主题"></div><div class="cards" id="cards"></div></section>
-<section><div class="section-head"><h2>重要线索 · 尚未入库</h2><small>有原始入口，缺少足够证据</small></div><div class="lead-list" id="leads"></div></section>
-<section><div class="section-head"><h2>A–H 信源检查</h2><small>入口检查不代表渠道穷尽</small></div><div class="audit" id="audit"></div></section>
-<section><div class="section-head"><h2>核验与更新边界</h2></div><div class="panel"><p id="boundary"></p><p>观点卡链接指向原站；底稿编号对应内部工具包。网页不公开授权研报全文和内部底稿。若抓取失败，应保留最后成功版本并显示故障，不把旧观点标为今日新增。</p></div></section>
-<footer class="bottom">海外观点追踪 · 内部研究演示。观点归属原发表者；本站不构成投资建议。<span id="loaded"></span></footer></main>
-<script id="seed-data" type="application/json">{"schema_version":1,"generated_at":"2026-11-24","cards_as_of":"2026-11-24","last_successful_check":"2026-11-24","mode":"首期演示｜非实时","coverage_claim":"A–H 已做首轮公开入口检查；X、授权研报、音频和外部渠道未证明穷尽","cards":[{"id":"GS-1","topic":"宏观","claim":"2027 年全球增长 2.8%，与市场一致预期持平；美国、日本、英国预计快于一致预期，欧元区偏弱；中国 4.5%（一致预期 4.4%）。","date":"2026-11-13","priority":"P1","speaker":"Jan Hatzius","team":"高盛研究部（首席经济学家、研究部主管）","horizon":"2027 年全年","value":"2.8%","attribution_limit":"官网编辑转述团队，不等同本人逐字原话","china_statement":"该篇原文有中国相关表述，见对应定位","evidence_id":"E-GS1","risk":"风险偏向下行：伊朗局势再升级推高能源价格；大额财政赤字推高长端利率（尤其法国）；AI 资本开支不及预期。","forecast_as_of":"原文未单列基准日；材料发布 2026-11-13","entity":"高盛","sources":[{"n":1,"title":"高盛官网公开解读：2027 全球宏观与 AI 投资","url":"https://www.goldmansachs.com/insights/articles/the-global-economy-is-forecast-to-grow-2-point-8-percent-in-2027-as-oil-prices-decline","tier":"L2"}],"source_boundary":"有原始文件，仍须核图表/动态内容"},{"id":"GS-2","topic":"AI 投资","claim":"全球名义 AI 投资将从 2026 年的 1.1 万亿美元升至 2027 年的 1.8 万亿美元，增量主要来自美国硬件支出增加逾 5,000 亿美元；AI 投资拉动全球 GDP 增速 0.4 个百分点，拉动美国“真实”GDP 增速 0.6 个百分点。","date":"2026-11-13","priority":"P1","speaker":"Jan Hatzius","team":"高盛研究部","horizon":"2027 年","value":"1.8 万亿美元；全球 +0.4 个百分点；美国“真实”GDP +0.6 个百分点","attribution_limit":"官网编辑转述团队，不等同本人逐字原话","china_statement":"本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态","evidence_id":"E-GS2","risk":"AI 资本开支可能因产能约束、监管、信用压力或需求走弱而不及预期；AI 对就业的影响 2027 年较小，2028–2029 年更明显。","forecast_as_of":"原文未单列基准日；材料发布 2026-11-13","entity":"高盛","sources":[{"n":1,"title":"高盛官网公开解读：2027 全球宏观与 AI 投资","url":"https://www.goldmansachs.com/insights/articles/the-global-economy-is-forecast-to-grow-2-point-8-percent-in-2027-as-oil-prices-decline","tier":"L2"}],"source_boundary":"有原始文件，仍须核图表/动态内容"},{"id":"GS-3","topic":"通胀与利率","claim":"美联储先在 12 月和明年 3 月加息，11 月 13 日官网文章写 2027 年 12 月开始降息，2028 年再降三次，终端利率 3.25–3.5%；核心 PCE 从 2026 年末 3.2% 降到 2027 年末 2.4%；布伦特油价 2027 年末降到 78 美元。","date":"2026-11-13","priority":"P0","speaker":"Jan Hatzius","team":"高盛研究部","horizon":"至 2027 年末（降息延续到 2028 年）","value":"12 月、3 月各加息一次，2027 年 12 月降息一次，终端利率 3.25–3.5%；核心 PCE 2027 年末 2.4%；布伦特 2027 年末 78 美元","attribution_limit":"官网编辑转述团队，不等同本人逐字原话","china_statement":"本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态","evidence_id":"E-GS3","risk":"Hatzius 在播客中称市场定价的紧缩幅度比他的预期更多。；另见 GS-8 美国经济团队文章把首次降息写作 2027 年 11 月（会议原定 12 月），两个发布日期的版本并列。","forecast_as_of":"原文未单列基准日；材料发布 2026-11-13","entity":"高盛","sources":[{"n":1,"title":"高盛官网公开解读：2027 全球宏观与 AI 投资","url":"https://www.goldmansachs.com/insights/articles/the-global-economy-is-forecast-to-grow-2-point-8-percent-in-2027-as-oil-prices-decline","tier":"L2"},{"n":2,"title":"高盛 Exchanges：Hatzius 本人播客逐字稿","url":"https://www.goldmansachs.com/insights/goldman-sachs-exchanges/steady-global-economic-growth-in2027-but-risks-tilted-to-downside","tier":"L1"}],"source_boundary":"有原始文件，仍须核图表/动态内容"},{"id":"GS-4","topic":"全球股票配置","claim":"全球股票牛市延续但波动加大；风险调整后超配美国和日本、低配欧洲。主线是成长股、精选防御股、受益油价和利率下行的公司。","date":"2026-11-16","priority":"P1","speaker":"Peter Oppenheimer","team":"高盛研究部（首席全球股票策略师）","horizon":"未来 12 个月","value":"标普 500 总回报 16%；STOXX 600 总回报 13%（美元计）；TOPIX 24%；MSCI EM 总回报 21%","attribution_limit":"官网编辑转述团队，不等同本人逐字原话","china_statement":"本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态","evidence_id":"E-GS4","risk":"盈利放缓、金融条件收紧、借贷成本高、AI 周期提前见顶；经济风险偏下行。","forecast_as_of":"2026-11-12（原文注明）","entity":"高盛","sources":[{"n":3,"title":"高盛官网公开解读：Oppenheimer 全球股票展望","url":"https://www.goldmansachs.com/insights/articles/global-stocks-expected-to-rally-in-2027-as-earnings-growth-slows","tier":"L2"}],"source_boundary":"有原始文件，仍须核图表/动态内容"},{"id":"GS-5","topic":"盈利","claim":"2027 年各地区盈利增速大幅放缓：美国从 36% 降到 11%，欧洲从约 18% 降到 7%，日本从 24% 降到 9%，亚洲从近 80% 降到不到 30%。","date":"2026-11-16","priority":"P1","speaker":"Peter Oppenheimer","team":"高盛研究部（全球股票策略团队）","horizon":"2026 年→2027 年","value":"美国 36%→11%；欧洲约 18%→7%；日本 24%→9%；亚洲近 80%→不到 30%","attribution_limit":"官网编辑转述团队，不等同本人逐字原话","china_statement":"本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态","evidence_id":"E-GS5","risk":"—","forecast_as_of":"原文未单列基准日；材料发布 2026-11-16","entity":"高盛","sources":[{"n":3,"title":"高盛官网公开解读：Oppenheimer 全球股票展望","url":"https://www.goldmansachs.com/insights/articles/global-stocks-expected-to-rally-in-2027-as-earnings-growth-slows","tier":"L2"}],"source_boundary":"有原始文件，仍须核图表/动态内容"},{"id":"GS-6","topic":"美股","claim":"高盛官网图表给出标普 500 在 2027 年底达到 8,700 点；正文预计截至 2027 年底总回报 18%。2027 年盈利增长 11%，低于今年的约 30%；若剔除巨头科技公司来自私募投资的“其他收入”，2027 年盈利增长 18%。","date":"2026-11-19","priority":"P0","speaker":"Ben Snider","team":"高盛研究部（首席美股策略师）","horizon":"至 2027 年底","value":"2027 年底目标 8,700 点；到 2027 年底总回报 18%；2027 年 EPS +11%（剔除巨头科技公司私募投资“其他收入”后 +18%）；下行情景约 5,600 点","attribution_limit":"官网编辑转述团队，不等同本人逐字原话","china_statement":"本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态","evidence_id":"E-GS6","risk":"最大下行风险是 2028 年盈利前景恶化；半导体供给增加可能压缩利润率。下行情景：若一致预期 EPS 回到 30 年趋势、市盈率回到 30 年均值 17 倍，标普下跌约 25% 至约 5,600 点。","forecast_as_of":"2026-11-17（原文注明）","entity":"高盛","sources":[{"n":4,"title":"高盛官网公开解读：Snider 美股展望","url":"https://www.goldmansachs.com/insights/articles/us-stocks-predicted-to-extend-historic-rally-as-gains-moderate/","tier":"L2"},{"n":5,"title":"高盛美股展望同页图表：2027 年底 8,700 点","url":"https://www.goldmansachs.com/insights/articles/us-stocks-predicted-to-extend-historic-rally-as-gains-moderate/","tier":"L2"}],"source_boundary":"有原始文件，仍须核图表/动态内容"},{"id":"GS-7","topic":"资产配置","claim":"2027 年主导市场的主题包括：市场周期进入成熟期、美元走势更具周期性、债券重新具备对冲价值。","date":"2026-11-16","priority":"P1","speaker":"高盛研究部宏观策略团队","team":"高盛研究部","horizon":"2027 年","value":"无数字","attribution_limit":"官网编辑转述团队，不等同本人逐字原话","china_statement":"本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态","evidence_id":"E-GS7","risk":"—","forecast_as_of":"原文未单列基准日；材料发布 2026-11-16","entity":"高盛","sources":[{"n":6,"title":"高盛 Global Markets Outlook: Growing Pains 报告落地页","url":"https://www.goldmansachs.com/insights/goldman-sachs-research/global-markets-outlook-growing-pains","tier":"L2"}],"source_boundary":"有原始文件，仍须核图表/动态内容"},{"id":"MA-1","topic":"AI 编程与软件需求","claim":"Andreessen 称，问任何一家头部公司的软件工程师，都会说智能体写了他们几乎全部代码。他举 Cognition 自身为例：其生产代码中由 Devin 编写的比例一年内从 13% 升至 90% 以上。工程师的杠杆随之放大（10 倍工程师变成 100 倍）。","date":"2026-09-09","priority":"P1","speaker":"Marc Andreessen","team":"a16z 联合创始人","horizon":"过去一年","value":"Cognition 生产代码中由 Devin 编写的比例：一年内 13%→90% 以上","attribution_limit":"本人署名材料","china_statement":"本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态","evidence_id":"E-MA1","risk":"作者是被投公司的投资方，数据来自被投公司自身。","forecast_as_of":"不适用：定性判断或历史比较；材料发布 2026-09-09","entity":"a16z","sources":[{"n":7,"title":"Marc Andreessen 署名：Investing in Cognition","url":"https://a16z.com/announcement/investing-in-cognition/","tier":"L1"}],"source_boundary":"有原始文件，仍须核图表/动态内容"},{"id":"MA-2","topic":"AI 智能体的企业落地","claim":"AI 智能体正以“混乱”方式进入企业，就像早期个人电脑和电子表格；这恰恰是一项技术真会改变世界的信号。企业不该禁止，而应搭建“智能体栖息地”去引导；做到的“自动驾驶公司”会明显拉开差距。","date":"2026-10-26","priority":"P1","speaker":"Marc Andreessen","team":"a16z 联合创始人","horizon":"—","value":"无数字","attribution_limit":"本人署名材料","china_statement":"本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态","evidence_id":"E-MA2","risk":"—","forecast_as_of":"不适用：定性判断或历史比较；材料发布 2026-10-26","entity":"a16z","sources":[{"n":8,"title":"Marc Andreessen 署名：Let Chaos Reign, and Then Rein In Chaos","url":"https://a16z.com/let-chaos-reign-and-then-rein-in-chaos/","tier":"L1"}],"source_boundary":"有原始文件，仍须核图表/动态内容"},{"id":"BH-1","topic":"AI 与企业组织、就业","claim":"智能体化正在瓦解 20 世纪的管理方式，长期可能走向“人人都是管理者”；执行和判断是互补品，例行执行变便宜会抬高对判断的需求，因此优秀人才更值钱。","date":"2026-10-27","priority":"P1","speaker":"Ben Horowitz（与 Michael McGuiness 合著）","team":"a16z 联合创始人","horizon":"—","value":"无数字","attribution_limit":"合著仅归共同作者","china_statement":"本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态","evidence_id":"E-BH1","risk":"文章未讨论 AI 泡沫、需求或定价风险。","forecast_as_of":"不适用：定性判断或历史比较；材料发布 2026-10-27","entity":"a16z","sources":[{"n":9,"title":"Ben Horowitz、Michael McGuiness 合著：Databricks & the Future of the Firm","url":"https://a16z.com/databricks-the-future-of-the-firm/","tier":"L1"}],"source_boundary":"有原始文件，仍须核图表/动态内容"},{"id":"GS-8","topic":"美国经济","claim":"美国团队预计 2027 年美国 GDP 增长 2.4%（四季度同比），高于 2.2% 一致预期；其官网文章把首次降息写为 2027 年最后一次会议（11 月，原定 12 月）。","date":"2026-11-17","priority":"P0","speaker":"David Mericle","team":"高盛美国经济团队","horizon":"2027 年及 2027 年底","value":"2.4%（Q4/Q4）；一致预期 2.2%；2027 年底 AI 硬件和知识产权支出年化 1.4 万亿美元；预计 2027 年最后一次会议在 11 月开始降息","attribution_limit":"官网编辑转述团队，不等同本人逐字原话","china_statement":"本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态","evidence_id":"E-GS8","risk":"与 11 月 13 日全球宏观文章的“12 月降息”会议月份需按版本并列。","forecast_as_of":"原文未单列基准日；材料发布 2026-11-17","entity":"高盛","sources":[{"n":11,"title":"高盛官网公开解读：美国 2027 年经济展望","url":"https://www.goldmansachs.com/insights/articles/why-the-us-economy-is-forecast-to-grow-faster-than-consensus-estimates","tier":"L2"}],"source_boundary":"有原始文件，仍须核图表/动态内容"},{"id":"GS-9","topic":"油价与中国需求","claim":"大宗商品团队预计布伦特在基准情景下 2027 年平均 88 美元/桶、到 12 月初回落至 78 美元/桶；团队估计中国石油需求总量已在 2025 年见顶。","date":"2026-11-18","priority":"P0","speaker":"Daan Struyven","team":"高盛大宗商品研究团队","horizon":"2027 年全年及年末","value":"2027 年均价 88 美元/桶；2027 年 12 月初 78 美元/桶","attribution_limit":"官网编辑转述团队，不等同本人逐字原话","china_statement":"该篇原文有中国相关表述，见对应定位","evidence_id":"E-GS9","risk":"预测以没有重大局势变化为基准；极端情景与年均价不能混用。","forecast_as_of":"2026-11-17（原文现价基准）","entity":"高盛","sources":[{"n":12,"title":"高盛官网公开解读：2027 年油价和中国需求","url":"https://www.goldmansachs.com/insights/articles/oil-is-estimated-to-ease-in-2027-as-suppliers-adapt-to-hormuz-disruption","tier":"L2"}],"source_boundary":"有原始文件，仍须核图表/动态内容"},{"id":"A16Z-1","topic":"AI 软件投资","claim":"a16z 五位联合署名者在 TypeSafe 投资公告中表示，AI 应让软件更强大，而不只是自动复制既有软件。","date":"2026-10-09","priority":"P1","speaker":"Marc Andreessen、Ben Horowitz 等五人联合署名","team":"a16z 投资团队","horizon":"长期定性判断","value":"无数字","attribution_limit":"合著仅归共同作者","china_statement":"本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态","evidence_id":"E-A16Z1","risk":"利益关系：投资方谈被投企业；不能把某段单独归于 Marc 或 Ben。","forecast_as_of":"不适用：定性判断或历史比较；材料发布 2026-10-09","entity":"a16z","sources":[{"n":15,"title":"a16z 联合署名：Investing in TypeSafe AI","url":"https://a16z.com/announcement/investing-in-typesafe-ai/","tier":"L1"}],"source_boundary":"有原始文件，仍须核图表/动态内容"}],"leads":[{"id":"L-A16Z-FRONTIER","date":"2026-10-22","title":"The Frontier Ideas a16z Wants to Fund","description":"官方 RSS 标注 Marc Andreessen、Ben Horowitz、Chris Dixon 参与，属于高优先级投资方向线索。","url":"https://a16z.simplecast.com/episodes/tbc-gRs50MgP","reason":"官方节目发现已完成；尚无可定位的本人发言逐字稿及说话人核验。","entity":"a16z"},{"id":"RSS-13","date":"2026-10-10","title":"What Makes a Great Entrepreneur? | Ben Horowitz on Vintage x Vintage","description":"a16z 官方 RSS 发现的创始人相关 AI/投资节目；本人具体发言未证实。","url":"https://a16z.simplecast.com/episodes/what-makes-a-great-entrepreneur-ben-horowitz-on-vintage-x-vintage-FiiBzjgE","reason":"未取得可靠逐字稿与说话人定位；仅作候选。","entity":"a16z"},{"id":"L-GS-WALDRON","date":"2026-11-04","title":"John Waldron on GDP Growth, AI, and the M&A Outlook ","description":"高盛管理层关于 GDP、AI 和并购的节目，须与 GIR 2027 策略分开。","url":"https://www.goldmansachs.com/insights/goldman-sachs-exchanges/john-waldron-on-gdp-growth-ai-and-the-m-a-outlook","reason":"官网有逐字稿；本任务相关判断尚未逐段筛选。","entity":"高盛"},{"id":"L-GS-ALLOC","date":"2026-11-16","title":"2027 全球权益策略：美日超配、欧洲低配","description":"高盛官网 2027 展望专题摘要明确美日股票超配、欧洲低配；属于资产配置重点。","url":"https://www.goldmansachs.com/insights/goldman-sachs-research/global-equity-strategy-outlook-finding-value-in-growth","reason":"公开仅见报告摘要；原研报、权重和基准口径未取得，未建正式卡。","entity":"高盛"},{"id":"L-GS-USREPORT","date":"2026-11-23","title":"US Economics Outlook 原报告落地页","description":"高盛研究部官网报告页称 2027 年美国经济增长 2.4%；消费和商业投资支撑，住房和贸易拖累。","url":"https://www.goldmansachs.com/insights/articles/us-economics-outlook-end-of-the-inflation-shocks","reason":"报告落地页摘要已核；原研报及更详细假设未取得；与 GS-8 公开解读对应。","entity":"高盛"}],"channels":[{"channel":"A","name":"官方一手","goldman":{"status":"定位","result":"2027专题6篇文章、5个报告落地页和11月播客3期已有逐项去向；报告全文未取得","links":["https://www.goldmansachs.com/insights/outlooks/2027-outlooks"]},"a16z":{"status":"定位/受限","result":"官网作者页、播客RSS 84期已列；10期元数据命中；本人X账号403，74期元数据未命中并非音频核除","links":["https://feeds.simplecast.com/JGE3yC0V","https://x.com/pmarca","https://x.com/bhorowitz"]}},{"channel":"B","name":"制度性披露","goldman":{"status":"定位","result":"IR presentations目录最新可见2026-10-13三季度业绩电话会；这不是GIR 2027策略，未据此新增策略卡；未做180项历史逐条筛选","links":["https://www.goldmansachs.com/investor-relations/presentations"]},"a16z":{"status":"线索","result":"联储工作组入口已尝试抓取，186个为HTML链接不是186份发言；未定位创始人对本期AI投资判断的制度性披露","links":["https://www.federalreserve.gov/monetarypolicy/productivity-and-jobs-task-force.htm"]}},{"channel":"C","name":"公开活动","goldman":{"status":"线索","result":"2027官网专题含宏观播客活动，官方逐字稿可查；专题外会议目录未形成完整条目清单","links":["https://www.goldmansachs.com/insights/goldman-sachs-exchanges/steady-global-economic-growth-in2027-but-risks-tilted-to-downside"]},"a16z":{"status":"线索","result":"10月22日Frontier节目确认Marc和Ben参与，但页面署名不等于每句说话人；无逐字稿不写本人原话","links":["https://a16z.com/podcast/the-frontier-ideas-a16z-wants-to-fund-marc-andreessen-ben-horowitz-chris-dixon/"]}},{"channel":"D","name":"外部访谈","goldman":{"status":"线索","result":"已检索公开媒体/采访词组，尚未建立2027策略师外部访谈的可复核全集；管理层Waldron官方访谈须与GIR分开","links":["https://www.goldmansachs.com/insights/goldman-sachs-exchanges/john-waldron-on-gdp-growth-ai-and-the-m-a-outlook"]},"a16z":{"status":"线索","result":"Ben于10月10日参加Vintage x Vintage外部访谈，官网简介谈AI周期及投资者标准；尚无逐字稿与时间码，不能拆成本人逐句观点","links":["https://a16z.com/podcast/what-makes-a-great-entrepreneur-ben-horowitz-on-vintage-x-vintage/"]}},{"channel":"E","name":"授权研报","goldman":{"status":"受限","result":"官网报告页可读摘要，Read the Report指向gspublishing；无授权登录，不声称读到原版全文","links":["https://www.goldmansachs.com/insights/goldman-sachs-research/global-equity-strategy-outlook-finding-value-in-growth"]},"a16z":{"status":"不适用","result":"不以投行授权研报要求套用VC；改核本人联合署名投资公告和投资披露","links":["https://a16z.com/announcement/investing-in-typesafe-ai/"]}},{"channel":"F","name":"媒体及反向检索","goldman":{"status":"线索","result":"中英文反查发现H股增持、12%与18%盈利增速口径的媒体报道；未获对应原研报，仍单列未确认","links":["https://www.scmp.com/business/markets/article/3374550/goldman-sachs-morgan-stanley-diverge-2027-calls-h-shares-vs-shares","https://www.goldmansachs.com/insights/articles/global-stocks-expected-to-rally-in-2027-as-earnings-growth-slows/"]},"a16z":{"status":"线索","result":"搜索创始人+AI+外部访谈，找到Vintage节目及Frontier页面；X搜索无可信逐帖结果，未证明搜索饱和","links":["https://a16z.com/podcast/what-makes-a-great-entrepreneur-ben-horowitz-on-vintage-x-vintage/"]}},{"channel":"G","name":"言行对照数据","goldman":{"status":"定位/线索","result":"官网公布美国GDP 2.4%对一致预期2.2%、中国GDP 4.5%对4.4%；一致预期来自高盛文章引述，未独立取得数据库","links":["https://www.goldmansachs.com/insights/articles/why-the-us-economy-is-forecast-to-grow-faster-than-consensus-estimates/"]},"a16z":{"status":"定位/线索","result":"联合署名TypeSafe AI投资公告可核投资动作；不能把机构投资自动归为Marc或Ben个人预测，投资回报未取得","links":["https://a16z.com/announcement/investing-in-typesafe-ai/"]}},{"channel":"H","name":"中国相关渠道","goldman":{"status":"定位/线索","result":"官方宏观文章中国GDP 4.5%；H股超配及12%对18%仅见媒体转述，原研报缺失，禁止写入已核一页结论","links":["https://www.goldmansachs.com/insights/articles/the-global-economy-is-forecast-to-grow-2-point-8-percent-in-2027-as-oil-prices-decline/","https://www.scmp.com/business/markets/article/3374550/goldman-sachs-morgan-stanley-diverge-2027-calls-h-shares-vs-shares"]},"a16z":{"status":"线索","result":"Marc一月2026节目简介提及中美AI；超出近三月窗口，不能冒充近期观点；近三月本人中国判断尚未证实","links":["https://a16z.com/podcast/marc-andreessens-2026-outlook-ai-timelines-us-vs-china-and-the-price-of-ai/"]}}],"source_count":15,"raw_evidence_count":13}</script>
+:root{
+  --bg:#F5F7F8;--card:#FFFFFF;--ink:#16243A;--ink2:#34445C;--muted:#67758B;--line:#DFE5EA;--line2:#EDF1F4;
+  --navy:#0D1824;--navy2:#11293C;
+  --indigo:#176CAA;--indigo-d:#11568A;--indigo-50:#E8F1F8;--indigo-100:#CFE2F0;
+  --teal:#0E806F;--teal-l:#5FD0BC;
+  --amber:#B87A20;--amber-50:#FDF3E1;--amber-d:#8A5A12;
+  --green:#0E806F;--green-50:#E3F3EF;--red:#C24141;--red-50:#FBEAEA;--gray-50:#F0F3F5;
+  --radius:14px;--shadow:0 1px 2px rgba(17,37,58,.04),0 10px 30px rgba(17,37,58,.06);
+  --font:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC","Segoe UI",Roboto,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:var(--indigo);text-decoration:none}a:hover{text-decoration:underline}
+button{font-family:inherit;cursor:pointer}
+.num{font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+
+/* header */
+.top{position:sticky;top:0;z-index:20;background:rgba(13,24,36,.96);color:#fff;backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.08)}
+.top-in{max-width:1200px;margin:0 auto;padding:12px 24px;display:flex;align-items:center;gap:16px}
+.logo{width:34px;height:34px;border-radius:9px;border:1.5px solid var(--teal-l);color:var(--teal-l);display:grid;place-items:center;font-weight:700;font-size:16px;flex:none}
+.brand b{display:block;font-size:16px;letter-spacing:.02em}
+.brand small{display:block;color:#8FA3B5;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase}
+.top-right{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.pill{display:inline-flex;align-items:center;gap:6px;border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.05);border-radius:999px;padding:4px 12px;font-size:12.5px;color:#D6E0EA;white-space:nowrap}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--teal-l);flex:none;box-shadow:0 0 0 3px rgba(95,208,188,.18)}
+.dot.warn{background:#E8B04E;box-shadow:none}.dot.bad{background:#F06A6A;box-shadow:none}
+.demo{background:rgba(232,176,78,.12);border-color:rgba(232,176,78,.45);color:#F0C77A}
+
+/* hero + tabs */
+.hero-wrap{max-width:1248px;margin:0 auto;padding:0 24px}
+.hero{background:radial-gradient(circle at 86% 12%,#25495C 0,transparent 36%),linear-gradient(140deg,var(--navy2),var(--navy) 70%);color:#fff;border-radius:0 0 26px 26px;padding:46px 48px 40px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-90px;top:40px;width:330px;height:330px;border-radius:50%;border:1px solid rgba(95,208,188,.16)}
+.eyebrow{color:var(--teal-l);font-size:12px;font-weight:700;letter-spacing:.18em}
+.hero h1{margin:10px 0 0;font-size:40px;line-height:1.2;letter-spacing:.01em}
+.hero p{margin:12px 0 0;color:#B8C6D3;font-size:14.5px;max-width:720px}
+.hero .meta2{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px;position:relative;z-index:1}
+.hero .meta2 span{border:1px solid rgba(255,255,255,.18);border-radius:8px;padding:5px 12px;font-size:12.5px;color:#DCE6EF}
+.tabs{max-width:1200px;margin:22px auto 0;padding:0 24px;display:flex;gap:4px;border-bottom:1px solid var(--line);overflow-x:auto}
+.tab{border:0;background:none;padding:10px 14px;font-size:14.5px;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px;white-space:nowrap}
+.tab:hover{color:var(--ink)}
+.tab.on{color:var(--ink);border-bottom-color:var(--teal);font-weight:700}
+.tab .c{display:inline-block;margin-left:6px;font-size:11.5px;background:var(--gray-50);color:var(--muted);border-radius:999px;padding:0 7px}
+.tab.on .c{background:var(--green-50);color:var(--teal)}
+main{max-width:1200px;margin:0 auto;padding:24px 24px 60px}
+.panel{display:none}.panel.on{display:block}
+h2{font-size:17px;margin:0 0 14px;display:flex;align-items:baseline;gap:10px}
+h2 small{font-weight:400;color:var(--muted);font-size:12.5px}
+.sec{margin-bottom:32px}
+
+/* KPI */
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.kpi{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--navy2);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px 20px;display:block;color:inherit;transition:border-color .15s,transform .15s}
+.kpi:hover{border-color:var(--indigo-100);transform:translateY(-1px);text-decoration:none}
+.kpi .big{font-size:32px;font-weight:700;color:var(--ink);line-height:1.15}
+.kpi .lab{margin-top:6px;font-size:13.5px;color:var(--ink2)}
+.kpi .who{margin-top:10px;font-size:12px;color:var(--muted);display:flex;justify-content:space-between}
+.kpi .who span:last-child{color:var(--teal);font-weight:600}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:6px 20px}
+.li{display:block;padding:14px 0;border-bottom:1px solid var(--line2);color:inherit}
+.li:last-child{border-bottom:0}
+.li:hover{text-decoration:none}.li:hover b{color:var(--indigo)}
+.li b{display:block;font-size:14.5px;font-weight:600}
+.li span{display:block;font-size:12.5px;color:var(--muted);margin-top:2px}
+.warnli b::before{content:"!";display:inline-grid;place-items:center;width:17px;height:17px;border-radius:50%;background:var(--amber-50);color:var(--amber-d);font-size:11px;margin-right:8px;vertical-align:1px}
+.status-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.status-grid div{padding:14px 16px;border-right:1px solid var(--line2)}
+.status-grid div:last-child{border-right:0}
+.status-grid small{display:block;color:var(--muted);font-size:12px}
+.status-grid b{display:block;font-size:15px;margin-top:2px}
+.note{font-size:12.5px;color:var(--muted);margin:10px 2px 0}
+
+/* library */
+.lib{display:grid;grid-template-columns:240px 1fr;gap:24px;align-items:start}
+.filters{position:sticky;top:76px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;box-shadow:var(--shadow)}
+.fg{margin-bottom:16px}.fg:last-child{margin-bottom:0}
+.fg>label{display:block;font-size:12px;color:var(--muted);margin-bottom:8px;letter-spacing:.04em}
+.seg{display:flex;background:var(--gray-50);border-radius:8px;padding:3px}
+.seg button{flex:1;border:0;background:none;padding:5px 0;border-radius:6px;font-size:13px;color:var(--ink2)}
+.seg button.on{background:var(--navy2);color:#fff;font-weight:600;box-shadow:0 1px 2px rgba(0,0,0,.06)}
+.opt{display:flex;align-items:center;justify-content:space-between;width:100%;border:0;background:none;padding:6px 8px;border-radius:7px;font-size:13.5px;color:var(--ink2);text-align:left}
+.opt:hover{background:var(--gray-50)}
+.opt.on{background:var(--navy2);color:#fff;font-weight:600}
+.opt i{font-style:normal;font-size:12px;color:var(--muted)}
+.opt.on i{color:#9FB6C8}
+.toggle{display:flex;align-items:center;gap:8px;font-size:13.5px;color:var(--ink2);padding:4px 0;cursor:pointer}
+.toggle input{accent-color:var(--indigo);width:15px;height:15px}
+.search{width:100%;border:1px solid var(--line);border-radius:8px;padding:8px 10px;font:inherit;font-size:13.5px;color:var(--ink)}
+.search:focus{outline:2px solid var(--indigo-100);border-color:var(--indigo)}
+.reset{border:0;background:none;color:var(--indigo);font-size:12.5px;padding:0}
+.resbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:13px;color:var(--muted)}
+.cards{display:grid;gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px 20px;scroll-margin-top:90px;transition:box-shadow .3s,border-color .3s}
+.card.p0{border-left-color:var(--amber)}
+.card.flash{box-shadow:0 0 0 3px var(--indigo-100),var(--shadow);border-color:var(--indigo)}
+.tags{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:8px}
+.tag{font-size:11.5px;padding:1px 8px;border-radius:5px;border:1px solid transparent;line-height:1.7;white-space:nowrap}
+.t-p0{background:var(--amber-50);color:var(--amber);font-weight:700}
+.t-p1{background:var(--gray-50);color:var(--muted)}
+.t-self{background:var(--navy2);color:#fff}
+.t-site{border-color:var(--teal);color:var(--teal);background:#fff}
+.t-sum{background:var(--gray-50);color:var(--muted);border-color:var(--line)}
+.t-cn{background:var(--red-50);color:var(--red)}
+.t-theme{color:var(--muted);padding-left:2px}
+.t-ent{font-weight:600;color:var(--ink2);padding-left:0}
+.card h3{margin:0;font-size:17px;line-height:1.45}
+.card .sm{margin:4px 0 0;color:var(--ink2);font-size:14px}
+.card .meta{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:10px;font-size:12.5px;color:var(--muted)}
+.more{border:0;background:none;color:var(--indigo);font-size:12.5px;padding:0}
+.detail{display:none;margin-top:14px;padding-top:14px;border-top:1px dashed var(--line)}
+.card.open .detail{display:block}
+.dl{display:grid;grid-template-columns:104px 1fr;gap:8px 14px;font-size:13.5px}
+.dl dt{color:var(--muted)}.dl dd{margin:0;color:var(--ink2)}
+.dl dd.risk{background:var(--amber-50);border-radius:6px;padding:6px 10px;color:#5F4310}
+.srcs{display:flex;flex-direction:column;gap:4px}
+.copy{border:1px solid var(--line);background:#fff;border-radius:6px;padding:3px 10px;font-size:12px;color:var(--ink2);margin-top:12px}
+.empty{background:var(--card);border:1px dashed var(--line);border-radius:var(--radius);padding:28px;text-align:center;color:var(--muted)}
+
+/* checks */
+.checks{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.check{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px 20px}
+.check h3{margin:0 0 6px;font-size:15.5px}
+.check p{margin:0;font-size:13.5px;color:var(--ink2)}
+.check .refs{margin-top:10px;display:flex;gap:6px;flex-wrap:wrap}
+.chip{font-size:12px;border:1px solid var(--indigo-100);background:var(--indigo-50);color:var(--indigo);border-radius:6px;padding:1px 8px}
+.chip:hover{text-decoration:none;background:var(--indigo-100)}
+
+/* leads */
+.lbar{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.lbar .seg{width:auto}.lbar .seg button{flex:none;padding:5px 14px;white-space:nowrap}
+.lead{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px 18px;display:grid;grid-template-columns:1fr auto;gap:6px 20px;margin-bottom:10px}
+.lead b{font-size:14.5px}
+.lead p{margin:2px 0 0;font-size:13px;color:var(--muted)}
+.lead .gap{font-size:12.5px;color:var(--amber-d);margin-top:4px}
+.lead .side{text-align:right;font-size:12.5px;color:var(--muted);white-space:nowrap}
+.lead .links{display:flex;gap:14px;font-size:13px;margin-top:6px}
+.t-auto{background:var(--green-50);color:var(--green)}
+.t-man{background:var(--gray-50);color:var(--ink2)}
+
+/* coverage */
+table.cov{width:100%;border-collapse:separate;border-spacing:0;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);font-size:13.5px}
+.cov th,.cov td{padding:12px 14px;border-bottom:1px solid var(--line2);vertical-align:top;text-align:left}
+.cov th{background:#FAFBFC;font-size:12.5px;color:var(--muted);font-weight:600}
+.cov tr:last-child td{border-bottom:0}
+.cov td.ch{white-space:nowrap;font-weight:600;width:150px}
+.cov td.ch span{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:6px;background:var(--indigo-50);color:var(--indigo);margin-right:8px;font-size:12px}
+.st{display:inline-block;font-size:11.5px;border-radius:5px;padding:0 7px;margin-bottom:4px}
+.st-ok{background:var(--green-50);color:var(--green)}.st-lead{background:var(--amber-50);color:var(--amber-d)}.st-bad{background:var(--red-50);color:var(--red)}.st-na{background:var(--gray-50);color:var(--muted)}
+.cov td div{color:var(--ink2)}
+
+/* entity page */
+.intro{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px 24px;display:grid;grid-template-columns:1fr auto;gap:16px 28px;margin-bottom:18px}
+.intro h2{margin:0 0 4px;font-size:20px}
+.intro .win{font-size:13px;color:var(--muted)}
+.people{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.person{border:1px solid var(--line);border-radius:8px;padding:5px 11px;font-size:13px;background:#FAFBFC}
+.person b{font-weight:600}.person span{color:var(--muted);margin-left:6px;font-size:12px}
+.istats{display:grid;grid-template-columns:repeat(3,auto);gap:0 26px;align-self:center;text-align:right}
+.istats b{display:block;font-size:26px;line-height:1.1;color:var(--ink)}
+.istats small{font-size:12px;color:var(--muted)}
+.inote{grid-column:1/-1;font-size:12.5px;color:var(--muted);border-top:1px dashed var(--line);padding-top:10px}
+.subnav{display:flex;gap:8px;margin-bottom:18px;flex-wrap:wrap}
+.subnav button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:6px 16px;font-size:13.5px;color:var(--ink2)}
+.subnav button i{font-style:normal;color:var(--muted);margin-left:6px;font-size:12px}
+.subnav button.on{background:var(--navy2);border-color:var(--navy2);color:#fff;font-weight:600}
+.subnav button.on i{color:#9FB6C8}
+.sub{display:none}.sub.on{display:block}
+.subnote{margin:0 0 14px;font-size:13px;color:var(--muted)}
+@media (max-width:900px){.intro{grid-template-columns:1fr}.istats{text-align:left;grid-template-columns:repeat(3,1fr)}}
+footer{max-width:1200px;margin:0 auto;padding:0 24px 40px;color:var(--muted);font-size:12px;border-top:1px solid var(--line);padding-top:16px}
+
+@media (max-width:900px){
+  .hero{padding:32px 22px 28px;border-radius:0 0 19px 19px}.hero h1{font-size:28px}.hero-wrap{padding:0}
+  .kpis{grid-template-columns:1fr 1fr}.two,.checks{grid-template-columns:1fr}
+  .lib{grid-template-columns:1fr}.filters{position:static}
+  .status-grid{grid-template-columns:1fr 1fr}.status-grid div:nth-child(2){border-right:0}
+  .status-grid div:nth-child(-n+2){border-bottom:1px solid var(--line2)}
+  .top-in{flex-wrap:wrap}.top-right{margin-left:0;justify-content:flex-start}
+  .dl{grid-template-columns:1fr}.dl dt{margin-top:6px}
+  .cov td.ch{width:auto}
+}
+@media (max-width:520px){.kpi .big{font-size:26px}.hero h1{font-size:24px}main,.tabs,.top-in{padding-left:14px;padding-right:14px}.lead{grid-template-columns:1fr}.lead .side{text-align:left}}
+</style>
+</head>
+<body>
+<header class="top"><div class="top-in">
+  <div class="logo">观</div>
+  <div class="brand"><b>海外智库观点追踪系统</b><small>Overseas Viewpoint Tracker</small></div>
+  <div class="top-right">
+    <span class="pill demo">演示版</span>
+    <span class="pill" id="asof">观点卡截至 2026-11-24</span>
+    <span class="pill" id="livepill"><span class="dot" id="livedot"></span><span id="livetext">自动检查</span></span>
+  </div>
+</div></header>
+
+<div class="hero-wrap"><section class="hero">
+  <div class="eyebrow">OVERSEAS VIEWPOINT TRACKER</div>
+  <h1>把重要判断，追到原始出处。</h1>
+  <p>高盛 2027 投资策略与 a16z 创始人 AI 判断。只呈现对象自己说了什么、数字具体指什么、出处在哪里。</p>
+  <div class="meta2"><span id="m-cards">13 张已核观点</span><span>每条附原文链接</span></div>
+</section></div>
+<nav class="tabs" id="tabs">
+  <button class="tab on" data-tab="ov">重点速览</button>
+  <button class="tab" data-tab="gs">高盛 · 2027 投资策略<span class="c" id="c-gs"></span></button>
+  <button class="tab" data-tab="az">a16z · 创始人 AI 判断<span class="c" id="c-az"></span></button>
+</nav>
+
+<main>
+<section class="panel on" id="p-ov">
+  <div class="sec"><h2>高盛 · 关键数字 <small>2027 年度展望 · 点击查看对应观点</small></h2><div class="kpis" id="kpis"></div></div>
+  <div class="sec two">
+    <div><h2>高盛 · 重点观点 <small>P0 · 按发布日期</small></h2><div class="box" id="gs-hl"></div></div>
+    <div><h2>a16z · 创始人观点 <small>本人署名文章</small></h2><div class="box" id="a16z-hl"></div></div>
+  </div>
+  <div class="sec"><h2>自动更新状态 <small>每 3 小时检查一次官方播客源</small></h2>
+    <div class="box" style="padding:0"><div class="status-grid" id="status"></div></div>
+    <p class="note" id="status-note"></p>
+  </div>
+</section>
+
+<section class="panel" id="p-ent">
+  <div class="intro" id="intro"></div>
+  <div class="subnav" id="subnav"></div>
+
+  <div class="sub on" id="s-lib">
+    <div class="lib">
+      <aside class="filters">
+        <div class="fg"><label>关键词</label><input class="search" id="q" placeholder="如：标普、降息、智能体"></div>
+        <div class="fg" id="fg-theme"><label>主题</label><div id="f-theme"></div></div>
+        <div class="fg"><label>信源类型</label><div id="f-src"></div></div>
+        <div class="fg">
+          <label class="toggle"><input type="checkbox" id="f-p0"> 只看 P0 重点</label>
+          <label class="toggle" id="t-cn"><input type="checkbox" id="f-cn"> 只看中国相关</label>
+        </div>
+        <button class="reset" id="reset">清空筛选</button>
+      </aside>
+      <div><div class="resbar"><span id="rescount"></span><span>按重点程度、日期排序</span></div><div class="cards" id="cards"></div></div>
+    </div>
+  </div>
+
+
+  <div class="sub" id="s-lead">
+    <p class="subnote">有官方入口，但还没有足够证据写成观点卡。“自动发现”由程序每 3 小时检查官方播客源列出，未经核验。</p>
+    <div class="lbar"><div class="seg" id="l-src"></div></div>
+    <div id="leads"></div>
+  </div>
+
+  <div class="sub" id="s-cov">
+    <p class="subnote" id="cov-note"></p>
+    <table class="cov"><thead><tr><th>渠道</th><th>检查状态</th><th>结果</th></tr></thead><tbody id="cov"></tbody></table>
+  </div>
+</section>
+</main>
+<footer>观点归属原发表者；本页为内部研究演示，不构成投资建议。观点卡为人工逐条对照原文核验；“待核线索”由程序自动检查官方播客源后列出，未经核验。<span id="loaded"></span></footer>
+
+<script id="seed-cards" type="application/json">{"schema_version": 2, "cards_as_of": "2026-11-24", "cards": [{"id": "GS-6", "entity": "高盛", "theme": "股票与盈利", "source_type": "官网解读", "china": false, "priority": "P0", "headline": "标普 500：2027 年底 8,700 点", "summary": "到 2027 年底总回报 18%；EPS +11%；下行情景约 5,600 点", "claim": "高盛官网图表给出标普 500 在 2027 年底达到 8,700 点；正文预计截至 2027 年底总回报 18%。2027 年盈利增长 11%，低于今年的约 30%；若剔除巨头科技公司来自私募投资的“其他收入”，2027 年盈利增长 18%。", "speaker": "Ben Snider", "team": "高盛研究部（首席美股策略师）", "date": "2026-11-19", "horizon": "至 2027 年底", "forecast_as_of": "2026-11-17（原文注明）", "value": "2027 年底目标 8,700 点；到 2027 年底总回报 18%；2027 年 EPS +11%（剔除巨头科技公司私募投资“其他收入”后 +18%）；下行情景约 5,600 点", "risk": "最大下行风险是 2028 年盈利前景恶化；半导体供给增加可能压缩利润率。下行情景：若一致预期 EPS 回到 30 年趋势、市盈率回到 30 年均值 17 倍，标普下跌约 25% 至约 5,600 点。", "attribution": "官网编辑转述团队，不等同本人逐字原话", "china_statement": "本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态", "evidence_id": "E-GS6", "sources": [{"n": 4, "title": "高盛官网公开解读：Snider 美股展望", "url": "https://www.goldmansachs.com/insights/articles/us-stocks-predicted-to-extend-historic-rally-as-gains-moderate/", "type": "官网解读"}, {"n": 5, "title": "高盛美股展望同页图表：2027 年底 8,700 点", "url": "https://www.goldmansachs.com/insights/articles/us-stocks-predicted-to-extend-historic-rally-as-gains-moderate/", "type": "官网解读"}], "notes": ["Snider 美股展望里，18% 既是标普 500 到 2027 年底的总回报，也是剔除巨头科技公司私募投资“其他收入”后的 2027 年 EPS 增速。不含剔除时 EPS 增速是 11%。", "全球股票策略团队（Oppenheimer）写 36%，美股策略团队（Snider）写约 30%。两个团队、两种估算，并列呈现，不合并。", "16% 是未来 12 个月总回报（起算日 11 月 12 日）；18% 是到 2027 年底总回报（起算日 11 月 17 日）。期限和起算日都不同。", "Snider 文章正文段落没有写 8,700，数字出自同页图表说明“2027 年底升至 8,700”。它是年底目标，不要与其他机构的“12 个月目标”直接比较。"]}, {"id": "GS-3", "entity": "高盛", "theme": "宏观与利率", "source_type": "官网解读", "china": false, "priority": "P0", "headline": "美联储：12 月、3 月加息，2027 年 12 月开始降息", "summary": "终端利率 3.25–3.5%；核心 PCE 2027 年末 2.4%；布伦特年末 78 美元", "claim": "美联储先在 12 月和明年 3 月加息，11 月 13 日官网文章写 2027 年 12 月开始降息，2028 年再降三次，终端利率 3.25–3.5%；核心 PCE 从 2026 年末 3.2% 降到 2027 年末 2.4%；布伦特油价 2027 年末降到 78 美元。", "speaker": "Jan Hatzius", "team": "高盛研究部", "date": "2026-11-13", "horizon": "至 2027 年末（降息延续到 2028 年）", "forecast_as_of": "原文未单列基准日；材料发布 2026-11-13", "value": "12 月、3 月各加息一次，2027 年 12 月降息一次，终端利率 3.25–3.5%；核心 PCE 2027 年末 2.4%；布伦特 2027 年末 78 美元", "risk": "Hatzius 在播客中称市场定价的紧缩幅度比他的预期更多；另见 GS-8 美国经济团队文章把首次降息写作 2027 年 11 月（会议原定 12 月），两个发布日期的版本并列。", "attribution": "官网编辑转述团队，不等同本人逐字原话", "china_statement": "本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态", "evidence_id": "E-GS3", "sources": [{"n": 1, "title": "高盛官网公开解读：2027 全球宏观与 AI 投资", "url": "https://www.goldmansachs.com/insights/articles/the-global-economy-is-forecast-to-grow-2-point-8-percent-in-2027-as-oil-prices-decline", "type": "官网解读"}, {"n": 2, "title": "高盛 Exchanges：Hatzius 本人播客逐字稿", "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/steady-global-economic-growth-in2027-but-risks-tilted-to-downside", "type": "本人原话"}], "notes": ["11 月 13 日全球宏观文章写 2027 年 12 月开始降息；11 月 17 日美国经济团队文章写“2027 年最后一次会议（11 月，原定 12 月）”开始降息。两处可能指同一次会议，但原文写法不同，按原文分别记录。", "大宗团队预计 2027 年均价 88 美元、到 12 月初回落至 78 美元；全球宏观文章中的 78 美元同样是年末水平。引用时写清楚是年均还是年末。"]}, {"id": "GS-8", "entity": "高盛", "theme": "宏观与利率", "source_type": "官网解读", "china": false, "priority": "P0", "headline": "美国 GDP：2027 年 2.4%，高于一致预期 2.2%", "summary": "按四季度同比计算；2027 年最后一次会议（11 月）开始降息", "claim": "美国团队预计 2027 年美国 GDP 增长 2.4%（四季度同比），高于 2.2% 一致预期；其官网文章把首次降息写为 2027 年最后一次会议（11 月，原定 12 月）。", "speaker": "David Mericle", "team": "高盛美国经济团队", "date": "2026-11-17", "horizon": "2027 年及 2027 年底", "forecast_as_of": "原文未单列基准日；材料发布 2026-11-17", "value": "2.4%（Q4/Q4）；一致预期 2.2%；2027 年底 AI 硬件和知识产权支出年化 1.4 万亿美元；预计 2027 年最后一次会议在 11 月开始降息", "risk": "与 11 月 13 日全球宏观文章的“12 月降息”会议月份需按版本并列。", "attribution": "官网编辑转述团队，不等同本人逐字原话", "china_statement": "本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态", "evidence_id": "E-GS8", "sources": [{"n": 11, "title": "高盛官网公开解读：美国 2027 年经济展望", "url": "https://www.goldmansachs.com/insights/articles/why-the-us-economy-is-forecast-to-grow-faster-than-consensus-estimates", "type": "官网解读"}], "notes": ["11 月 13 日全球宏观文章写 2027 年 12 月开始降息；11 月 17 日美国经济团队文章写“2027 年最后一次会议（11 月，原定 12 月）”开始降息。两处可能指同一次会议，但原文写法不同，按原文分别记录。", "1.8 万亿美元是 2027 年全球名义 AI 投资；1.4 万亿美元是美国 AI 相关硬件和知识产权支出在 2027 年底的年化水平。范围和时点都不同。"]}, {"id": "GS-9", "entity": "高盛", "theme": "大类资产", "source_type": "官网解读", "china": true, "priority": "P0", "headline": "布伦特：2027 年均价 88 美元，12 月初 78 美元", "summary": "团队估计中国石油需求总量已在 2025 年见顶", "claim": "大宗商品团队预计布伦特在基准情景下 2027 年平均 88 美元/桶、到 12 月初回落至 78 美元/桶；团队估计中国石油需求总量已在 2025 年见顶。", "speaker": "Daan Struyven", "team": "高盛大宗商品研究团队", "date": "2026-11-18", "horizon": "2027 年全年及年末", "forecast_as_of": "2026-11-17（原文现价基准）", "value": "2027 年均价 88 美元/桶；2027 年 12 月初 78 美元/桶", "risk": "预测以没有重大局势变化为基准；极端情景与年均价不能混用。", "attribution": "官网编辑转述团队，不等同本人逐字原话", "china_statement": "该篇原文有中国相关表述，见对应定位", "evidence_id": "E-GS9", "sources": [{"n": 12, "title": "高盛官网公开解读：2027 年油价和中国需求", "url": "https://www.goldmansachs.com/insights/articles/oil-is-estimated-to-ease-in-2027-as-suppliers-adapt-to-hormuz-disruption", "type": "官网解读"}], "notes": ["大宗团队预计 2027 年均价 88 美元、到 12 月初回落至 78 美元；全球宏观文章中的 78 美元同样是年末水平。引用时写清楚是年均还是年末。"]}, {"id": "GS-1", "entity": "高盛", "theme": "宏观与利率", "source_type": "官网解读", "china": true, "priority": "P1", "headline": "全球 GDP：2027 年增长 2.8%，中国 4.5%", "summary": "与一致预期持平；中国 4.5%（一致预期 4.4%）；风险偏下行", "claim": "2027 年全球增长 2.8%，与市场一致预期持平；美国、日本、英国预计快于一致预期，欧元区偏弱；中国 4.5%（一致预期 4.4%）。", "speaker": "Jan Hatzius", "team": "高盛研究部（首席经济学家、研究部主管）", "date": "2026-11-13", "horizon": "2027 年全年", "forecast_as_of": "原文未单列基准日；材料发布 2026-11-13", "value": "2.8%", "risk": "风险偏向下行：伊朗局势再升级推高能源价格；大额财政赤字推高长端利率（尤其法国）；AI 资本开支不及预期。", "attribution": "官网编辑转述团队，不等同本人逐字原话", "china_statement": "该篇原文有中国相关表述，见对应定位", "evidence_id": "E-GS1", "sources": [{"n": 1, "title": "高盛官网公开解读：2027 全球宏观与 AI 投资", "url": "https://www.goldmansachs.com/insights/articles/the-global-economy-is-forecast-to-grow-2-point-8-percent-in-2027-as-oil-prices-decline", "type": "官网解读"}], "notes": []}, {"id": "GS-2", "entity": "高盛", "theme": "AI 投资周期", "source_type": "官网解读", "china": false, "priority": "P1", "headline": "AI 投资：2027 年全球名义 1.8 万亿美元", "summary": "2026 年为 1.1 万亿；拉动全球 GDP 增速 0.4 个百分点", "claim": "全球名义 AI 投资将从 2026 年的 1.1 万亿美元升至 2027 年的 1.8 万亿美元，增量主要来自美国硬件支出增加逾 5,000 亿美元；AI 投资拉动全球 GDP 增速 0.4 个百分点，拉动美国“真实”GDP 增速 0.6 个百分点。", "speaker": "Jan Hatzius", "team": "高盛研究部", "date": "2026-11-13", "horizon": "2027 年", "forecast_as_of": "原文未单列基准日；材料发布 2026-11-13", "value": "1.8 万亿美元；全球 +0.4 个百分点；美国“真实”GDP +0.6 个百分点", "risk": "AI 资本开支可能因产能约束、监管、信用压力或需求走弱而不及预期；AI 对就业的影响 2027 年较小，2028–2029 年更明显。", "attribution": "官网编辑转述团队，不等同本人逐字原话", "china_statement": "本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态", "evidence_id": "E-GS2", "sources": [{"n": 1, "title": "高盛官网公开解读：2027 全球宏观与 AI 投资", "url": "https://www.goldmansachs.com/insights/articles/the-global-economy-is-forecast-to-grow-2-point-8-percent-in-2027-as-oil-prices-decline", "type": "官网解读"}], "notes": ["1.8 万亿美元是 2027 年全球名义 AI 投资；1.4 万亿美元是美国 AI 相关硬件和知识产权支出在 2027 年底的年化水平。范围和时点都不同。", "0.4 个百分点是对全球 GDP 增速；0.6 个百分点是对高盛定义的美国“真实”GDP 增速（原文加了引号），计算范围不同。"]}, {"id": "GS-4", "entity": "高盛", "theme": "股票与盈利", "source_type": "官网解读", "china": false, "priority": "P1", "headline": "全球股票：牛市延续，超配美日、低配欧洲", "summary": "12 个月总回报：标普 16%、MSCI EM 21%；TOPIX 24%", "claim": "全球股票牛市延续但波动加大；风险调整后超配美国和日本、低配欧洲。主线是成长股、精选防御股、受益油价和利率下行的公司。", "speaker": "Peter Oppenheimer", "team": "高盛研究部（首席全球股票策略师）", "date": "2026-11-16", "horizon": "未来 12 个月", "forecast_as_of": "2026-11-12（原文注明）", "value": "标普 500 总回报 16%；STOXX 600 总回报 13%（美元计）；TOPIX 24%；MSCI EM 总回报 21%", "risk": "盈利放缓、金融条件收紧、借贷成本高、AI 周期提前见顶；经济风险偏下行。", "attribution": "官网编辑转述团队，不等同本人逐字原话", "china_statement": "本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态", "evidence_id": "E-GS4", "sources": [{"n": 3, "title": "高盛官网公开解读：Oppenheimer 全球股票展望", "url": "https://www.goldmansachs.com/insights/articles/global-stocks-expected-to-rally-in-2027-as-earnings-growth-slows", "type": "官网解读"}], "notes": ["16% 是未来 12 个月总回报（起算日 11 月 12 日）；18% 是到 2027 年底总回报（起算日 11 月 17 日）。期限和起算日都不同。"]}, {"id": "GS-5", "entity": "高盛", "theme": "股票与盈利", "source_type": "官网解读", "china": false, "priority": "P1", "headline": "盈利增速：2027 年各地区明显放缓", "summary": "美国 36%→11%；日本 24%→9%；亚洲近 80%→不到 30%", "claim": "2027 年各地区盈利增速大幅放缓：美国从 36% 降到 11%，欧洲从约 18% 降到 7%，日本从 24% 降到 9%，亚洲从近 80% 降到不到 30%。", "speaker": "Peter Oppenheimer", "team": "高盛研究部（全球股票策略团队）", "date": "2026-11-16", "horizon": "2026 年→2027 年", "forecast_as_of": "原文未单列基准日；材料发布 2026-11-16", "value": "美国 36%→11%；欧洲约 18%→7%；日本 24%→9%；亚洲近 80%→不到 30%", "risk": "—", "attribution": "官网编辑转述团队，不等同本人逐字原话", "china_statement": "本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态", "evidence_id": "E-GS5", "sources": [{"n": 3, "title": "高盛官网公开解读：Oppenheimer 全球股票展望", "url": "https://www.goldmansachs.com/insights/articles/global-stocks-expected-to-rally-in-2027-as-earnings-growth-slows", "type": "官网解读"}], "notes": ["全球股票策略团队（Oppenheimer）写 36%，美股策略团队（Snider）写约 30%。两个团队、两种估算，并列呈现，不合并。"]}, {"id": "GS-7", "entity": "高盛", "theme": "大类资产", "source_type": "报告摘要页", "china": false, "priority": "P1", "headline": "跨资产：周期成熟、美元更具周期性、债券恢复对冲价值", "summary": "仅见公开摘要，研报正文未取得，无具体数字", "claim": "2027 年主导市场的主题包括：市场周期进入成熟期、美元走势更具周期性、债券重新具备对冲价值。", "speaker": "高盛研究部宏观策略团队", "team": "高盛研究部", "date": "2026-11-16", "horizon": "2027 年", "forecast_as_of": "原文未单列基准日；材料发布 2026-11-16", "value": "无数字", "risk": "—", "attribution": "官网编辑转述团队，不等同本人逐字原话", "china_statement": "本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态", "evidence_id": "E-GS7", "sources": [{"n": 6, "title": "高盛 Global Markets Outlook: Growing Pains 报告落地页", "url": "https://www.goldmansachs.com/insights/goldman-sachs-research/global-markets-outlook-growing-pains", "type": "报告摘要页"}], "notes": []}, {"id": "MA-1", "entity": "a16z", "theme": "AI 应用与软件", "source_type": "本人署名", "china": false, "priority": "P1", "headline": "AI 编程：头部公司代码几乎都由智能体编写（Andreessen 称）", "summary": "举例：Cognition 生产代码中 Devin 编写占比一年内 13%→90% 以上", "claim": "Andreessen 称，问任何一家头部公司的软件工程师，都会说智能体写了他们几乎全部代码。他举 Cognition 自身为例：其生产代码中由 Devin 编写的比例一年内从 13% 升至 90% 以上。工程师的杠杆随之放大（10 倍工程师变成 100 倍）。", "speaker": "Marc Andreessen", "team": "a16z 联合创始人", "date": "2026-09-09", "horizon": "过去一年", "forecast_as_of": "不适用：定性判断或历史比较；材料发布 2026-09-09", "value": "Cognition 生产代码中由 Devin 编写的比例：一年内 13%→90% 以上", "risk": "作者是被投公司的投资方，数据来自被投公司自身。", "attribution": "本人署名材料", "china_statement": "本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态", "evidence_id": "E-MA1", "sources": [{"n": 7, "title": "Marc Andreessen 署名：Investing in Cognition", "url": "https://a16z.com/announcement/investing-in-cognition/", "type": "本人署名"}], "notes": []}, {"id": "MA-2", "entity": "a16z", "theme": "AI 应用与软件", "source_type": "本人署名", "china": false, "priority": "P1", "headline": "企业智能体：先“混乱”进入，再被治理收编", "summary": "企业不该禁止，应搭建“智能体栖息地”加以引导", "claim": "AI 智能体正以“混乱”方式进入企业，就像早期个人电脑和电子表格；这恰恰是一项技术真会改变世界的信号。企业不该禁止，而应搭建“智能体栖息地”去引导；做到的“自动驾驶公司”会明显拉开差距。", "speaker": "Marc Andreessen", "team": "a16z 联合创始人", "date": "2026-10-26", "horizon": "—", "forecast_as_of": "不适用：定性判断或历史比较；材料发布 2026-10-26", "value": "无数字", "risk": "—", "attribution": "本人署名材料", "china_statement": "本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态", "evidence_id": "E-MA2", "sources": [{"n": 8, "title": "Marc Andreessen 署名：Let Chaos Reign, and Then Rein In Chaos", "url": "https://a16z.com/let-chaos-reign-and-then-rein-in-chaos/", "type": "本人署名"}], "notes": []}, {"id": "BH-1", "entity": "a16z", "theme": "AI 应用与软件", "source_type": "本人署名", "china": false, "priority": "P1", "headline": "智能体化企业：例行执行变便宜，判断更值钱", "summary": "执行与判断是互补品；优秀人才更值钱（与 McGuiness 合著）", "claim": "智能体化正在瓦解 20 世纪的管理方式，长期可能走向“人人都是管理者”；执行和判断是互补品，例行执行变便宜会抬高对判断的需求，因此优秀人才更值钱。", "speaker": "Ben Horowitz（与 Michael McGuiness 合著）", "team": "a16z 联合创始人", "date": "2026-10-27", "horizon": "—", "forecast_as_of": "不适用：定性判断或历史比较；材料发布 2026-10-27", "value": "无数字", "risk": "文章未讨论 AI 泡沫、需求或定价风险。", "attribution": "合著仅归共同作者", "china_statement": "本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态", "evidence_id": "E-BH1", "sources": [{"n": 9, "title": "Ben Horowitz、Michael McGuiness 合著：Databricks & the Future of the Firm", "url": "https://a16z.com/databricks-the-future-of-the-firm/", "type": "本人署名"}], "notes": []}, {"id": "A16Z-1", "entity": "a16z", "theme": "AI 应用与软件", "source_type": "本人署名", "china": false, "priority": "P1", "headline": "AI 软件：应让软件更强大，而不只是复制既有软件", "summary": "五人联名投资公告，含 Andreessen、Horowitz", "claim": "a16z 五位联合署名者在 TypeSafe 投资公告中表示，AI 应让软件更强大，而不只是自动复制既有软件。", "speaker": "Marc Andreessen、Ben Horowitz 等五人联合署名", "team": "a16z 投资团队", "date": "2026-10-09", "horizon": "长期定性判断", "forecast_as_of": "不适用：定性判断或历史比较；材料发布 2026-10-09", "value": "无数字", "risk": "利益关系：投资方谈被投企业；不能把某段单独归于 Marc 或 Ben。", "attribution": "合著仅归共同作者", "china_statement": "本卡所据材料未直接给出中国相关判断；不代表对象在其他场合未表态", "evidence_id": "E-A16Z1", "sources": [{"n": 15, "title": "a16z 联合署名：Investing in TypeSafe AI", "url": "https://a16z.com/announcement/investing-in-typesafe-ai/", "type": "本人署名"}], "notes": []}], "checks": [{"title": "18%：一个是标普总回报，一个是盈利增速", "cards": ["GS-6"], "detail": "Snider 美股展望里，18% 既是标普 500 到 2027 年底的总回报，也是剔除巨头科技公司私募投资“其他收入”后的 2027 年 EPS 增速。不含剔除时 EPS 增速是 11%。"}, {"title": "美国 2026 年盈利增速：一个团队写 36%，另一个写约 30%", "cards": ["GS-5", "GS-6"], "detail": "全球股票策略团队（Oppenheimer）写 36%，美股策略团队（Snider）写约 30%。两个团队、两种估算，并列呈现，不合并。"}, {"title": "标普回报 16% 和 18%：期限和起算日不同", "cards": ["GS-4", "GS-6"], "detail": "16% 是未来 12 个月总回报（起算日 11 月 12 日）；18% 是到 2027 年底总回报（起算日 11 月 17 日）。期限和起算日都不同。"}, {"title": "8,700 点：是 2027 年底目标，数字出自图表", "cards": ["GS-6"], "detail": "Snider 文章正文段落没有写 8,700，数字出自同页图表说明“2027 年底升至 8,700”。它是年底目标，不要与其他机构的“12 个月目标”直接比较。"}, {"title": "首次降息：一篇写 12 月，一篇写 11 月", "cards": ["GS-3", "GS-8"], "detail": "11 月 13 日全球宏观文章写 2027 年 12 月开始降息；11 月 17 日美国经济团队文章写“2027 年最后一次会议（11 月，原定 12 月）”开始降息。两处可能指同一次会议，但原文写法不同，按原文分别记录。"}, {"title": "布伦特 88 和 78 美元：88 是年均价，78 是年末价", "cards": ["GS-3", "GS-9"], "detail": "大宗团队预计 2027 年均价 88 美元、到 12 月初回落至 78 美元；全球宏观文章中的 78 美元同样是年末水平。引用时写清楚是年均还是年末。"}, {"title": "AI 1.8 万亿和 1.4 万亿美元：一个是全球投资，一个是美国年化支出", "cards": ["GS-2", "GS-8"], "detail": "1.8 万亿美元是 2027 年全球名义 AI 投资；1.4 万亿美元是美国 AI 相关硬件和知识产权支出在 2027 年底的年化水平。范围和时点都不同。"}, {"title": "AI 拉动 GDP 0.4 和 0.6 个百分点：一个是全球，一个是美国", "cards": ["GS-2"], "detail": "0.4 个百分点是对全球 GDP 增速；0.6 个百分点是对高盛定义的美国“真实”GDP 增速（原文加了引号），计算范围不同。"}], "highlights": {"numbers": [{"card": "GS-6", "big": "8,700", "label": "标普 500 · 2027 年底目标", "who": "高盛 · Snider"}, {"card": "GS-1", "big": "2.8%", "label": "全球 GDP · 2027 年", "who": "高盛 · Hatzius"}, {"card": "GS-8", "big": "2.4%", "label": "美国 GDP · 2027 年（Q4/Q4）", "who": "高盛 · Mericle"}, {"card": "GS-3", "big": "3.25–3.5%", "label": "美联储终端利率", "who": "高盛 · Hatzius"}, {"card": "GS-9", "big": "88 / 78", "label": "布伦特 · 2027 年均 / 12 月初（美元）", "who": "高盛 · Struyven"}, {"card": "GS-2", "big": "1.8 万亿", "label": "全球名义 AI 投资 · 2027 年（美元）", "who": "高盛 · Hatzius"}], "a16z": ["MA-1", "MA-2", "BH-1"], "gs": ["GS-6", "GS-3", "GS-8", "GS-9"]}, "channels": [{"channel": "A", "name": "官方一手", "goldman": {"status": "定位", "result": "2027专题6篇文章、5个报告落地页和11月播客3期已有逐项去向；报告全文未取得", "links": ["https://www.goldmansachs.com/insights/outlooks/2027-outlooks"]}, "a16z": {"status": "定位/受限", "result": "官网作者页、播客RSS 84期已列；10期元数据命中；本人X账号403，74期元数据未命中并非音频核除", "links": ["https://feeds.simplecast.com/JGE3yC0V", "https://x.com/pmarca", "https://x.com/bhorowitz"]}}, {"channel": "B", "name": "制度性披露", "goldman": {"status": "定位", "result": "IR presentations目录最新可见2026-10-13三季度业绩电话会；这不是GIR 2027策略，未据此新增策略卡；未做180项历史逐条筛选", "links": ["https://www.goldmansachs.com/investor-relations/presentations"]}, "a16z": {"status": "线索", "result": "联储工作组入口已尝试抓取，186个为HTML链接不是186份发言；未定位创始人对本期AI投资判断的制度性披露", "links": ["https://www.federalreserve.gov/monetarypolicy/productivity-and-jobs-task-force.htm"]}}, {"channel": "C", "name": "公开活动", "goldman": {"status": "线索", "result": "2027官网专题含宏观播客活动，官方逐字稿可查；专题外会议目录未形成完整条目清单", "links": ["https://www.goldmansachs.com/insights/goldman-sachs-exchanges/steady-global-economic-growth-in2027-but-risks-tilted-to-downside"]}, "a16z": {"status": "线索", "result": "10月22日Frontier节目确认Marc和Ben参与，但页面署名不等于每句说话人；无逐字稿不写本人原话", "links": ["https://a16z.com/podcast/the-frontier-ideas-a16z-wants-to-fund-marc-andreessen-ben-horowitz-chris-dixon/"]}}, {"channel": "D", "name": "外部访谈", "goldman": {"status": "线索", "result": "已检索公开媒体/采访词组，尚未建立2027策略师外部访谈的可复核全集；管理层Waldron官方访谈须与GIR分开", "links": ["https://www.goldmansachs.com/insights/goldman-sachs-exchanges/john-waldron-on-gdp-growth-ai-and-the-m-a-outlook"]}, "a16z": {"status": "线索", "result": "Ben于10月10日参加Vintage x Vintage外部访谈，官网简介谈AI周期及投资者标准；尚无逐字稿与时间码，不能拆成本人逐句观点", "links": ["https://a16z.com/podcast/what-makes-a-great-entrepreneur-ben-horowitz-on-vintage-x-vintage/"]}}, {"channel": "E", "name": "授权研报", "goldman": {"status": "受限", "result": "官网报告页可读摘要，Read the Report指向gspublishing；无授权登录，不声称读到原版全文", "links": ["https://www.goldmansachs.com/insights/goldman-sachs-research/global-equity-strategy-outlook-finding-value-in-growth"]}, "a16z": {"status": "不适用", "result": "不以投行授权研报要求套用VC；改核本人联合署名投资公告和投资披露", "links": ["https://a16z.com/announcement/investing-in-typesafe-ai/"]}}, {"channel": "F", "name": "媒体及反向检索", "goldman": {"status": "线索", "result": "中英文反查发现H股增持、12% 与 18% 盈利增速的媒体报道；未获对应原研报，仍单列未确认", "links": ["https://www.scmp.com/business/markets/article/3374550/goldman-sachs-morgan-stanley-diverge-2027-calls-h-shares-vs-shares", "https://www.goldmansachs.com/insights/articles/global-stocks-expected-to-rally-in-2027-as-earnings-growth-slows/"]}, "a16z": {"status": "线索", "result": "搜索创始人+AI+外部访谈，找到Vintage节目及Frontier页面；X搜索无可信逐帖结果，未证明搜索饱和", "links": ["https://a16z.com/podcast/what-makes-a-great-entrepreneur-ben-horowitz-on-vintage-x-vintage/"]}}, {"channel": "G", "name": "言行对照数据", "goldman": {"status": "定位/线索", "result": "官网公布美国GDP 2.4%对一致预期2.2%、中国GDP 4.5%对4.4%；一致预期来自高盛文章引述，未独立取得数据库", "links": ["https://www.goldmansachs.com/insights/articles/why-the-us-economy-is-forecast-to-grow-faster-than-consensus-estimates/"]}, "a16z": {"status": "定位/线索", "result": "联合署名TypeSafe AI投资公告可核投资动作；不能把机构投资自动归为Marc或Ben个人预测，投资回报未取得", "links": ["https://a16z.com/announcement/investing-in-typesafe-ai/"]}}, {"channel": "H", "name": "中国相关渠道", "goldman": {"status": "定位/线索", "result": "官方宏观文章中国GDP 4.5%；H股超配及12%对18%仅见媒体转述，原研报缺失，禁止写入已核一页结论", "links": ["https://www.goldmansachs.com/insights/articles/the-global-economy-is-forecast-to-grow-2-point-8-percent-in-2027-as-oil-prices-decline/", "https://www.scmp.com/business/markets/article/3374550/goldman-sachs-morgan-stanley-diverge-2027-calls-h-shares-vs-shares"]}, "a16z": {"status": "线索", "result": "Marc一月2026节目简介提及中美AI；超出近三月窗口，不能冒充近期观点；近三月本人中国判断尚未证实", "links": ["https://a16z.com/podcast/marc-andreessens-2026-outlook-ai-timelines-us-vs-china-and-the-price-of-ai/"]}}], "coverage_note": "A–H 已做首轮公开入口检查；X、授权研报、音频和外部访谈尚未证明穷尽。", "entities": {"高盛": {"key": "gs", "tab": "高盛 · 2027 投资策略", "title": "高盛 2027 年度展望", "window": "2027 年度展望发布期（2026 年 11 月起）", "people": [{"name": "Jan Hatzius", "role": "首席经济学家、研究部主管"}, {"name": "Peter Oppenheimer", "role": "首席全球股票策略师"}, {"name": "Ben Snider", "role": "首席美股策略师"}, {"name": "David Mericle", "role": "首席美国经济学家"}, {"name": "Daan Struyven", "role": "全球大宗商品研究联席主管"}], "note": "高盛官网 Insights 文章由 Executive Office 撰写、转述研究部报告，不等同研报原文或本人逐字原话；研报全文需授权，未取得。"}, "a16z": {"key": "az", "tab": "a16z · 创始人 AI 判断", "title": "a16z 创始人 AI 判断", "window": "近 3 个月（2026 年 9 月起）", "people": [{"name": "Marc Andreessen", "role": "联合创始人"}, {"name": "Ben Horowitz", "role": "联合创始人"}], "note": "只收本人署名、合著或联名文章；播客节目在没有逐字稿和说话人定位前只列为线索。a16z 是文中多家公司的投资方，相关表述标明利益关系。"}}}</script>
+<script id="seed-live" type="application/json">{"schema_version": 1, "generated_at": "2026-11-24T09:36:12.182291+00:00", "last_successful_check": "2026-11-24 09:36 UTC", "mode": "自动发现已运行；正式观点卡仍为人工构建的已核快照", "leads": [{"id": "RSS-13", "date": "2026-10-10", "title": "What Makes a Great Entrepreneur? | Ben Horowitz on Vintage x Vintage", "description": "a16z 官方 RSS 发现的创始人相关 AI/投资节目；本人具体发言未证实。", "url": "https://a16z.simplecast.com/episodes/what-makes-a-great-entrepreneur-ben-horowitz-on-vintage-x-vintage-FiiBzjgE", "reason": "未取得可靠逐字稿与说话人定位；仅作候选。", "entity": "a16z"}, {"id": "L-GS-USREPORT", "date": "2026-11-23", "title": "US Economics Outlook 原报告落地页", "description": "高盛研究部官网报告页称 2027 年美国经济增长 2.4%；消费和商业投资支撑，住房和贸易拖累。", "url": "https://www.goldmansachs.com/insights/articles/us-economics-outlook-end-of-the-inflation-shocks", "reason": "报告落地页摘要已核；原研报及更详细假设未取得；与 GS-8 公开解读对应。", "entity": "高盛"}, {"id": "LIVE-a243f3a97334", "date": "2026-11-17", "title": "Steady Global Economic Growth in 2027 Outlook But Risks Tilted to Downside", "description": "官方 RSS 标题/简介：The global economy is forecast to grow 2.8% in 2027, though energy and AI could test its resilience, Jan Hatzius, chief economist and head of Goldman Sachs Research says on the Exchanges podcast. Dominic Wilson, senior advisor in ", "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD1012556925.mp3", "reason": "新发现线索：仅核到 RSS 元数据，正文/音频说话人尚未核验，不能列为正式观点。", "entity": "高盛"}, {"id": "L-GS-ALLOC", "date": "2026-11-16", "title": "2027 全球权益策略：美日超配、欧洲低配", "description": "高盛官网 2027 展望专题摘要明确美日股票超配、欧洲低配；属于资产配置重点。", "url": "https://www.goldmansachs.com/insights/goldman-sachs-research/global-equity-strategy-outlook-finding-value-in-growth", "reason": "公开仅见报告摘要；原研报、权重和基准口径未取得，未建正式卡。", "entity": "高盛"}, {"id": "LIVE-a9284e753d74", "date": "2026-11-09", "title": "Scott Kupor on Building a16z and Rebuilding the Federal Workforce", "description": "官方 RSS 标题/简介：Scott Kupor helped build a16z from three people into a firm with hundreds of employees. Now, as Director of the U.S. Office of Personnel Management, he’s applying some of the same lessons about talent, incentives, and organization", "url": "https://a16z.simplecast.com/episodes/scott-kupor-on-building-a16z-and-rebuilding-the-federal-workforce-EU8R_X0j", "reason": "新发现线索：仅核到 RSS 元数据，正文/音频说话人尚未核验，不能列为正式观点。", "entity": "a16z"}, {"id": "L-GS-WALDRON", "date": "2026-11-04", "title": "John Waldron on GDP Growth, AI, and the M&A Outlook ", "description": "高盛管理层关于 GDP、AI 和并购的节目，须与 GIR 2027 策略分开。", "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/john-waldron-on-gdp-growth-ai-and-the-m-a-outlook", "reason": "官网有逐字稿；本任务相关判断尚未逐段筛选。", "entity": "高盛"}, {"id": "LIVE-f0f4ad1f9e78", "date": "2026-10-29", "title": "Brookfield’s Connor Teskey on the Real Bottleneck in the AI Buildout", "description": "官方 RSS 标题/简介：The bottleneck in the artificial intelligence (AI) buildout is neither capital nor demand, but rather the operational capability to develop land, secure a grid connection, and build the power supply, says Brookfield Asset Manageme", "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD4354719969.mp3", "reason": "新发现线索：仅核到 RSS 元数据，正文/音频说话人尚未核验，不能列为正式观点。", "entity": "高盛"}, {"id": "LIVE-c28fe81cfea1", "date": "2026-10-27", "title": "Goldman Sachs Chairman and CEO David Solomon on AI: Implementation, Accountability, and Jobs", "description": "官方 RSS 标题/简介：With the right “rules of the road,” advancing AI doesn’t have to be a choice between innovation and safety, says David Solomon, chairman and CEO of Goldman Sachs. He also explains why he’s optimistic about AI’s impact on the job m", "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD8901879985.mp3", "reason": "新发现线索：仅核到 RSS 元数据，正文/音频说话人尚未核验，不能列为正式观点。", "entity": "高盛"}, {"id": "L-A16Z-FRONTIER", "date": "2026-10-22", "title": "The Frontier Ideas a16z Wants to Fund", "description": "官方 RSS 标注 Marc Andreessen、Ben Horowitz、Chris Dixon 参与，属于高优先级投资方向线索。", "url": "https://a16z.simplecast.com/episodes/tbc-gRs50MgP", "reason": "官方节目发现已完成；尚无可定位的本人发言逐字稿及说话人核验。", "entity": "a16z"}], "feed_checks": [{"entity": "a16z", "status": "成功", "relevant_items": 1, "checked_at": "2026-11-24T09:36:12.182291+00:00", "feed": "https://feeds.simplecast.com/JGE3yC0V"}, {"entity": "高盛", "status": "成功", "relevant_items": 5, "checked_at": "2026-11-24T09:36:12.182291+00:00", "feed": "https://feeds.megaphone.fm/GLD9218176758"}]}</script>
 <script>
-(()=>{'use strict';const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));let D=JSON.parse($('#seed-data').textContent),entity='总览',topic='全部';const entities=['高盛','a16z'];
-function short(s,n=95){s=String(s||'');return s.length>n?s.slice(0,n)+'…':s}function arr(){return D.cards.filter(c=>entity==='总览'||c.entity===entity)}
-function render(){document.querySelectorAll('[data-entity]').forEach(b=>b.classList.toggle('active',b.dataset.entity===entity));$('#hero-title').textContent=entity==='总览'?'把重要判断，追到原始出处。':entity==='高盛'?'高盛 · 2027投资策略':'a16z · 创始人AI判断';$('#hero-sub').textContent=entity==='总览'?'高盛 2027 投资策略与 a16z 创始人 AI 判断。重点、归属、口径和未确认线索分开呈现。':entity==='高盛'?'宏观、股票、盈利、利率与资产配置，逐条标明团队、期限和口径。':'Marc Andreessen 与 Ben Horowitz 的本人及联合署名观点；音频简介单列线索。';$('#stamp').textContent='已核观点截至 '+(D.cards_as_of||'2026-11-24');$('#n-cards').textContent=arr().length+' 张已核观点';$('#status-text').textContent=D.mode+'。RSS最后成功检查：'+D.last_successful_check+'。'+D.coverage_claim;$('#boundary').textContent=D.coverage_claim+'；已归档原始网页响应 '+D.raw_evidence_count+' 张正式卡。';
-const f=entity==='总览'?entities.map(e=>D.cards.find(c=>c.entity===e&&c.priority==='P0')||D.cards.find(c=>c.entity===e)).filter(Boolean):arr().filter(c=>c.priority==='P0').slice(0,2);if(entity==='a16z')f.splice(0,f.length,...arr().slice(0,2));$('#focus').innerHTML=f.map(c=>`<a class="feature" href="#${esc(c.id)}"><div class="label">${esc(c.entity)} / ${esc(c.topic)} · ${esc(c.priority)}</div><h3>${esc(short(c.claim,82))}</h3><p>${esc(c.date)} · ${esc(c.speaker)}</p><span class="open">查看观点与来源 →</span></a>`).join('');
-const topics=['全部',...new Set(arr().map(c=>c.topic))];if(!topics.includes(topic))topic='全部';$('#filters').innerHTML=topics.map(t=>`<button data-topic="${esc(t)}" class="${t===topic?'active':''}">${esc(t)}</button>`).join('');const list=arr().filter(c=>topic==='全部'||c.topic===topic).sort((a,b)=>(a.priority===b.priority?b.date.localeCompare(a.date):a.priority.localeCompare(b.priority)));$('#cards-count').textContent=list.length+' 张 · 按优先级和日期';$('#cards').innerHTML=list.length?list.map(c=>`<article class="card" id="${esc(c.id)}"><div class="card-top"><span class="pill ${c.priority==='P0'?'hot':''}">${esc(c.priority)}</span><span>${esc(c.topic)}</span><span>· ${esc(c.date)}</span></div><h3>${esc(c.entity)} · ${esc(c.topic)}</h3><p class="claim">${esc(c.claim)}</p><div class="foot"><span>${esc(c.speaker)} · ${esc(c.evidence_id)}</span><span>${c.sources.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer" aria-label="打开原文 ${esc(s.n)}">原文 [${esc(s.n)}] ↗</a>`).join('　')}</span></div><details><summary>查看归属、期限与核验边界</summary><div class="detail"><p><b>团队：</b>${esc(c.team)}</p><p><b>期限：</b>${esc(c.horizon)}；基准日：${esc(c.forecast_as_of)}</p><p><b>口径：</b>${esc(c.value)}</p><p><b>归属边界：</b>${esc(c.attribution_limit)}</p><p><b>中国相关：</b>${esc(c.china_statement)}</p><p><b>底稿：</b>${esc(c.evidence_id)}。原始网页响应并不自动包含动态图表与音频。</p></div></details></article>`).join(''):'<div class="empty">该主题没有符合入库标准的观点。</div>';
-const leads=D.leads.filter(l=>entity==='总览'||l.entity===entity);$('#leads').innerHTML=leads.length?leads.map(l=>`<div class="lead"><div><strong>${esc(l.title)}</strong><p>${esc(short(l.description,160))} 缺口：${esc(l.reason)}</p>${l.url?`<a href="${esc(l.url)}" target="_blank" rel="noopener noreferrer">查看线索入口 ↗</a>`:''}</div><span class="lead-date">${esc((l.date||'').slice(0,10))}</span></div>`).join(''):'<div class="empty">本期没有单列线索。</div>';
-$('#audit').innerHTML=D.channels.map(x=>{let cells=entity==='总览'?['goldman','a16z']:entity==='高盛'?['goldman']:['a16z'];return `<div class="row"><span class="letter">${esc(x.channel)}</span><div><strong>${esc(x.name)}</strong>${cells.map(k=>`<small>${k==='goldman'?'高盛':'a16z'}：${esc(x[k].status)} · ${esc(short(x[k].result,68))}</small>`).join('')}</div></div>`}).join('');}
-document.addEventListener('click',e=>{let b=e.target.closest('[data-entity],[data-topic]');if(!b)return;if(b.dataset.entity){entity=b.dataset.entity;topic='全部';window.scrollTo({top:0,behavior:'smooth'})}else topic=b.dataset.topic;render()});render();fetch('./data/latest.json?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('not published');return r.json()}).then(j=>{if(j.schema_version!==1||!Array.isArray(j.cards)||!Array.isArray(j.channels))throw Error('invalid data');D=j;render();$('#loaded').textContent=' · 已读取网页数据'}).catch(()=>{$('#loaded').textContent=' · 展示内置首期快照；后台数据未接通'});
+(()=>{'use strict';
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const safeUrl=u=>/^https:\/\//.test(String(u||''))?esc(u):'#';
+let C=JSON.parse($('#seed-cards').textContent),L=JSON.parse($('#seed-live').textContent);
+const THEMES=['宏观与利率','股票与盈利','大类资产','AI 投资周期','AI 应用与软件'];
+const SRC=['本人署名','官网解读','报告摘要页'];
+const SRC_CLASS={'本人署名':'t-self','本人原话':'t-self','官网解读':'t-site','报告摘要页':'t-sum'};
+const KEY2ENT={gs:'高盛',az:'a16z'},ENT2KEY={'高盛':'gs','a16z':'az'};
+const COVKEY={'高盛':'goldman','a16z':'a16z'};
+let ENT='高盛',SUB='lib';
+const F={theme:'全部',src:'全部',p0:false,cn:false,q:''},LF={src:'全部'};
+const bj=new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false});
+const fmt=d=>bj.format(d).replace(/\//g,'-');
+const byId=id=>C.cards.find(c=>c.id===id);
+const isAuto=l=>String(l.id).startsWith('LIVE-');
+const entCards=()=>C.cards.filter(c=>c.entity===ENT);
+const entChecks=()=>C.checks.filter(k=>k.cards.some(id=>(byId(id)||{}).entity===ENT));
+const entLeads=()=>(L.leads||[]).filter(l=>l.entity===ENT);
+
+function show(tab){
+  $$('.tab').forEach(b=>b.classList.toggle('on',b.dataset.tab===tab));
+  $('#p-ov').classList.toggle('on',tab==='ov');$('#p-ent').classList.toggle('on',tab!=='ov');
+  if(tab!=='ov'){const e=KEY2ENT[tab];if(e!==ENT){ENT=e;Object.assign(F,{theme:'全部',src:'全部',p0:false,cn:false,q:''});$('#q').value='';LF.src='全部';SUB='lib'}renderEnt()}
+}
+function sub(name){SUB=name;$$('#subnav button').forEach(b=>b.classList.toggle('on',b.dataset.sub===name));$$('.sub').forEach(x=>x.classList.toggle('on',x.id==='s-'+name))}
+
+function tags(c){
+  return `<div class="tags"><span class="tag ${c.priority==='P0'?'t-p0':'t-p1'}">${esc(c.priority)}</span>`+
+  `<span class="tag ${SRC_CLASS[c.source_type]||'t-sum'}">${esc(c.source_type)}</span>`+
+  (c.china?'<span class="tag t-cn">中国相关</span>':'')+`<span class="tag t-theme">${esc(c.theme)}</span></div>`;
+}
+
+function renderOverview(){
+  const H=C.highlights||{};
+  $('#kpis').innerHTML=(H.numbers||[]).map(k=>`<a class="kpi" href="#${esc(k.card)}"><div class="big num">${esc(k.big)}</div><div class="lab">${esc(k.label)}</div><div class="who"><span>${esc(k.who)}</span><span>${esc(k.card)} →</span></div></a>`).join('');
+  $('#a16z-hl').innerHTML=(H.a16z||[]).map(byId).filter(Boolean).map(c=>`<a class="li" href="#${esc(c.id)}"><b>${esc(c.headline)}</b><span>${esc(c.speaker)} · ${esc(c.date)}</span></a>`).join('')+`<a class="li" href="#az"><span style="color:var(--teal)">进入 a16z 页面 →</span></a>`;
+  $('#gs-hl').innerHTML=(H.gs||[]).map(byId).filter(Boolean).map(c=>`<a class="li" href="#${esc(c.id)}"><b>${esc(c.headline)}</b><span>${esc(c.speaker)} · ${esc(c.date)}</span></a>`).join('')+`<a class="li" href="#gs"><span style="color:var(--teal)">进入高盛页面 →</span></a>`;
+}
+
+function renderStatus(){
+  const fc=L.feed_checks||[];const ok=fc.filter(x=>x.status==='成功').length;
+  const t=fc.length?new Date(fc[0].checked_at):null;
+  const stale=t&&(Date.now()-t.getTime()>8*3600e3);
+  $('#livedot').className='dot'+(!fc.length||ok===0?' bad':(ok<fc.length||stale?' warn':''));
+  $('#livetext').textContent=t?('最近检查 '+fmt(t)+'（北京时间）'):'自动检查未接通';
+  const now=new Date();const n=new Date(now);n.setUTCMinutes(17,0,0);
+  while(n<=now||n.getUTCHours()%3!==0)n.setUTCHours(n.getUTCHours()+1);
+  const auto=(L.leads||[]).filter(isAuto).length;
+  $('#status').innerHTML=`<div><small>最近一次检查</small><b class="num">${t?esc(fmt(t)):'—'}</b></div>`+
+   `<div><small>信源状态</small><b>${fc.map(x=>`<span style="color:${x.status==='成功'?'var(--green)':'var(--red)'}">${esc(x.entity)} ${esc(x.status)}</span>`).join(' · ')||'—'}</b></div>`+
+   `<div><small>自动发现的线索</small><b class="num">${auto} 条</b></div>`+
+   `<div><small>下次计划检查</small><b class="num">约 ${esc(fmt(n))}</b></div>`;
+  $('#status-note').textContent='时间均为北京时间。自动检查只读取高盛 Exchanges 与 a16z 官方播客的 RSS，新节目列入各机构页的“待核线索”，不会自动变成观点卡；抓取失败时如实显示“失败”。GitHub 定时任务可能延迟几分钟到几十分钟。'+(stale?' 注意：距上次检查已超过 8 小时。':'');
+}
+
+function renderIntro(){
+  const E=(C.entities||{})[ENT]||{};const cs=entCards();
+  $('#intro').innerHTML=`<div><h2>${esc(E.title||ENT)}</h2><div class="win">时间窗口：${esc(E.window||'')}</div>`+
+   `<div class="people">${(E.people||[]).map(p=>`<span class="person"><b>${esc(p.name)}</b><span>${esc(p.role)}</span></span>`).join('')}</div></div>`+
+   `<div class="istats"><div><b class="num">${cs.length}</b><small>已核观点</small></div><div><b class="num">${cs.filter(c=>c.priority==='P0').length}</b><small>P0 重点</small></div><div><b class="num">${entLeads().length}</b><small>待核线索</small></div></div>`+
+   (E.note?`<div class="inote">${esc(E.note)}</div>`:'');
+  const subs=[['lib','观点库',cs.length],['lead','待核线索',entLeads().length],['cov','信源覆盖','']];
+  if(!subs.some(x=>x[0]===SUB))SUB='lib';
+  $('#subnav').innerHTML=subs.map(([k,n,c])=>`<button data-sub="${k}" class="${SUB===k?'on':''}">${n}${c!==''?`<i>${c}</i>`:''}</button>`).join('');
+  sub(SUB);
+}
+
+function filterBox(){
+  const base=entCards();
+  const themes=THEMES.filter(t=>base.some(c=>c.theme===t));
+  $('#fg-theme').style.display=themes.length>1?'':'none';
+  $('#f-theme').innerHTML=['全部',...themes].map(t=>{const n=t==='全部'?base.length:base.filter(c=>c.theme===t).length;return `<button class="opt ${F.theme===t?'on':''}" data-f="theme" data-v="${esc(t)}">${esc(t)}<i>${n}</i></button>`}).join('');
+  const srcs=SRC.filter(s=>base.some(c=>c.source_type===s));
+  $('#f-src').innerHTML=['全部',...srcs].map(t=>{const n=t==='全部'?base.length:base.filter(c=>c.source_type===t).length;return `<button class="opt ${F.src===t?'on':''}" data-f="src" data-v="${esc(t)}">${esc(t)}<i>${n}</i></button>`}).join('');
+  $('#t-cn').style.display=base.some(c=>c.china)?'':'none';
+  $('#f-src').parentElement.style.display=srcs.length>1?'':'none';
+  $('#f-p0').parentElement.style.display=base.some(c=>c.priority==='P0')?'':'none';
+  $('#f-p0').checked=F.p0;$('#f-cn').checked=F.cn;
+}
+
+function cardHTML(c){
+  const src=c.sources.map(s=>`<a href="${safeUrl(s.url)}" target="_blank" rel="noopener noreferrer">[${esc(s.n)}] ${esc(s.title)}（${esc(s.type)}）↗</a>`).join('');
+  return `<article class="card ${c.priority==='P0'?'p0':''}" id="${esc(c.id)}">${tags(c)}<h3>${esc(c.headline)}</h3><p class="sm">${esc(c.summary)}</p>`+
+  `<div class="meta"><span>${esc(c.speaker)} · ${esc(c.date)} · ${esc(c.id)}</span><button class="more" data-open="${esc(c.id)}">展开详情 ▾</button></div>`+
+  `<div class="detail"><dl class="dl">`+
+  `<dt>完整表述</dt><dd>${esc(c.claim)}</dd>`+
+  `<dt>具体数值</dt><dd class="num">${esc(c.value)}</dd>`+
+  `<dt>期限 / 基准日</dt><dd>${esc(c.horizon)}；${esc(c.forecast_as_of)}</dd>`+
+  ((c.notes||[]).length?`<dt>引用提醒</dt><dd>${c.notes.map(esc).join('<br>')}</dd>`:'')+
+  `<dt>风险与版本差异</dt><dd class="risk">${esc(c.risk&&c.risk!=='—'?c.risk:'原文未单独讨论风险')}</dd>`+
+  `<dt>发言归属</dt><dd>${esc(c.team)}；${esc(c.attribution)}</dd>`+
+  `<dt>中国相关</dt><dd>${esc(c.china_statement)}</dd>`+
+  `<dt>原文</dt><dd class="srcs">${src}</dd>`+
+  `<dt>内部底稿</dt><dd>${esc(c.evidence_id)}</dd></dl>`+
+  `<button class="copy" data-copy="${esc(c.id)}">复制这条观点的链接</button></div></article>`;
+}
+
+function renderLib(){
+  filterBox();
+  const q=F.q.trim().toLowerCase();
+  const list=entCards().filter(c=>(F.theme==='全部'||c.theme===F.theme)&&(F.src==='全部'||c.source_type===F.src)&&(!F.p0||c.priority==='P0')&&(!F.cn||c.china)&&
+   (!q||[c.headline,c.summary,c.claim,c.speaker,c.value,c.id].join(' ').toLowerCase().includes(q)))
+   .sort((a,b)=>a.priority===b.priority?b.date.localeCompare(a.date):a.priority.localeCompare(b.priority));
+  $('#rescount').textContent=`共 ${list.length} 条观点`;
+  $('#cards').innerHTML=list.length?list.map(cardHTML).join(''):'<div class="empty">没有符合条件的观点，试试清空筛选。</div>';
+}
+
+function renderLeads(){
+  $('#l-src').innerHTML=['全部','自动发现','人工整理'].map(v=>`<button data-l="src" data-v="${v}" class="${LF.src===v?'on':''}">${v}</button>`).join('');
+  const list=entLeads().filter(l=>LF.src==='全部'||(LF.src==='自动发现')===isAuto(l));
+  $('#leads').innerHTML=list.length?list.map(l=>{
+    const auto=isAuto(l);const u=String(l.url||'');const mp3=/\.mp3(\?|$)/;const audio=l.audio_url||(mp3.test(u)?u:'');const page=mp3.test(u)?'':u;
+    const desc=String(l.description||'').replace(/^官方 RSS 标题\/简介：/,'');
+    return `<div class="lead"><div><div class="tags"><span class="tag ${auto?'t-auto':'t-man'}">${auto?'自动发现':'人工整理'}</span></div>`+
+    `<b>${esc(l.title)}</b><p>${esc(desc.length>170?desc.slice(0,170)+'…':desc)}</p><div class="gap">尚缺：${esc(l.reason)}</div>`+
+    `<div class="links">${page?`<a href="${safeUrl(page)}" target="_blank" rel="noopener noreferrer">节目 / 原文页面 ↗</a>`:''}${audio?`<a href="${safeUrl(audio)}" target="_blank" rel="noopener noreferrer">音频 ↗</a>`:''}</div></div>`+
+    `<div class="side">发布 ${esc(String(l.date||'').slice(0,10))}${auto&&l.found_at?`<br>系统发现 ${esc(l.found_at)}`:''}</div></div>`}).join(''):'<div class="empty">当前筛选下没有线索。</div>';
+}
+
+function stClass(s){s=String(s);return /不适用/.test(s)?'st-na':/^定位$/.test(s)?'st-ok':/^(受限|失败)$/.test(s)?'st-bad':'st-lead'}
+function renderCov(){
+  const ch=C.channels||[];const k=COVKEY[ENT];
+  $('#cov').innerHTML=ch.map(x=>{const v=x[k];return `<tr><td class="ch"><span>${esc(x.channel)}</span>${esc(x.name)}</td><td style="width:110px">${v?`<span class="st ${stClass(v.status)}">${esc(v.status)}</span>`:'—'}</td><td><div>${v?esc(v.result):''}</div></td></tr>`}).join('');
+  $('#cov-note').textContent=C.coverage_note||'';
+}
+
+function renderEnt(){renderIntro();renderLib();renderLeads();renderCov()}
+function renderAll(){
+  $('#asof').textContent='观点卡截至 '+(C.cards_as_of||'');
+  $('#m-cards').textContent=C.cards.length+' 张已核观点';
+  $('#c-gs').textContent=C.cards.filter(c=>c.entity==='高盛').length;$('#c-az').textContent=C.cards.filter(c=>c.entity==='a16z').length;
+  renderOverview();renderStatus();renderEnt();
+}
+
+function goHash(){
+  const h=decodeURIComponent(location.hash.slice(1));if(!h)return;
+  const m=h.match(/^(gs|az)(?:-(lib|lead|cov))?$/);
+  if(m){show(m[1]);sub(m[2]||'lib');window.scrollTo({top:0,behavior:'smooth'});return}
+  const c=byId(h);if(!c)return;
+  show(ENT2KEY[c.entity]);Object.assign(F,{theme:'全部',src:'全部',p0:false,cn:false,q:''});$('#q').value='';sub('lib');renderLib();
+  const el=document.getElementById(h);if(!el)return;
+  el.classList.add('open','flash');el.querySelector('.more').textContent='收起 ▴';
+  setTimeout(()=>el.scrollIntoView({behavior:'smooth',block:'start'}),30);
+  setTimeout(()=>el.classList.remove('flash'),2200);
+}
+
+document.addEventListener('click',e=>{
+  const t=e.target.closest('[data-tab]');if(t){show(t.dataset.tab);if(location.hash)history.replaceState(null,'',location.pathname+location.search);return}
+  const sb=e.target.closest('[data-sub]');if(sb){sub(sb.dataset.sub);return}
+  const f=e.target.closest('[data-f]');if(f){F[f.dataset.f]=f.dataset.v;renderLib();return}
+  const l=e.target.closest('[data-l]');if(l){LF[l.dataset.l]=l.dataset.v;renderLeads();return}
+  const o=e.target.closest('[data-open]');if(o){const c=o.closest('.card');c.classList.toggle('open');o.textContent=c.classList.contains('open')?'收起 ▴':'展开详情 ▾';return}
+  const cp=e.target.closest('[data-copy]');if(cp){const url=location.origin+location.pathname+'#'+cp.dataset.copy;
+    (navigator.clipboard?navigator.clipboard.writeText(url):Promise.reject()).then(()=>{cp.textContent='已复制'},()=>{prompt('复制这个链接：',url)});setTimeout(()=>cp.textContent='复制这条观点的链接',1800);return}
+  if(e.target.id==='reset'){Object.assign(F,{theme:'全部',src:'全部',p0:false,cn:false,q:''});$('#q').value='';renderLib()}
+});
+$('#q').addEventListener('input',e=>{F.q=e.target.value;renderLib()});
+$('#f-p0').addEventListener('change',e=>{F.p0=e.target.checked;renderLib()});
+$('#f-cn').addEventListener('change',e=>{F.cn=e.target.checked;renderLib()});
+window.addEventListener('hashchange',goHash);
+
+renderAll();goHash();
+const get=u=>fetch(u+'?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error(r.status);return r.json()});
+Promise.allSettled([get('./data/cards.json'),get('./data/latest.json')]).then(([a,b])=>{
+  let msg=[];
+  if(a.status==='fulfilled'&&Array.isArray(a.value.cards)){C=a.value;msg.push('观点卡已读取')}else msg.push('观点卡用内置快照');
+  if(b.status==='fulfilled'&&Array.isArray(b.value.leads)){L=b.value;msg.push('自动检查数据已读取')}else msg.push('自动检查数据未接通');
+  renderAll();if(location.hash)goHash();$('#loaded').textContent=' （'+msg.join('，')+'）';
+});
 })();
-</script></body></html>
+</script>
+</body>
+</html>

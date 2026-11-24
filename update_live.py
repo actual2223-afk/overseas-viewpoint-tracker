@@ -21,19 +21,26 @@ def fetch(url):
   if len(raw)>15_000_000:raise ValueError('feed too large')
   return raw
 
+CONTENT='{http://purl.org/rss/1.0/modules/content/}encoded'
+GS_PAGE=re.compile(r'https://www\.goldmansachs\.com/insights/goldman-sachs-exchanges/[A-Za-z0-9_\-/]+')
+
 def episodes(raw):
  root=ET.fromstring(raw)
+ home=(root.findtext('./channel/link') or '').strip()
  for i in root.findall('.//item'):
   def field(name):return (i.findtext(name) or '').strip()
   title=clean(field('title'));desc=clean(field('description'))
-  link=field('link') or field('guid')
+  enclosure=i.find('enclosure')
+  audio=enclosure.get('url','') if enclosure is not None else ''
+  link=field('link')
   if not link.startswith('https://'):
-   enclosure=i.find('enclosure')
-   link=enclosure.get('url','') if enclosure is not None else ''
+   m=GS_PAGE.search(field(CONTENT)+' '+field('description'))
+   link=m.group(0) if m else (home if home.startswith('https://') else '')
+  if not link.startswith('https://') and audio.startswith('https://'):link=audio
   if not link.startswith('https://'):continue
   try:dt=parsedate_to_datetime(field('pubDate')).astimezone(timezone.utc)
   except (TypeError,ValueError):continue
-  yield title,desc,link,dt
+  yield title,desc,link,audio,dt
 
 def main():
  d=json.loads(DATA.read_text(encoding='utf-8'));now=datetime.now(timezone.utc)
@@ -43,17 +50,18 @@ def main():
  for entity,url in FEEDS:
   try:
    n=0;matched=set()
-   for title,desc,link,when in episodes(fetch(url)):
+   for title,desc,link,audio,when in episodes(fetch(url)):
     if when<now-timedelta(days=30) or when>now+timedelta(days=2):continue
     head=title+' '+desc[:400]  # 只看简介开头，避开节目末尾的免责声明套话
     hit=(re.search(r'\b(Marc Andreessen|Ben Horowitz)\b',title+' '+desc,re.I) if entity=='a16z' else re.search(r'\b(2027|outlook|AI|artificial intelligence|China|Chinese|economy|economic|Fed|inflation|equit(y|ies)|S&P|oil|Hatzius|Oppenheimer|Snider|Mericle|Struyven)\b',head,re.I))
     if not hit:continue
     n+=1
     if title.strip().lower() in seen_titles:continue
-    key='LIVE-'+hashlib.sha256(link.encode()).hexdigest()[:12]
+    key='LIVE-'+hashlib.sha256((entity+title.strip().lower()+when.date().isoformat()).encode()).hexdigest()[:12]
     matched.add(key)
-    if key in old:continue
-    lead={'id':key,'date':when.date().isoformat(),'title':title,'description':'官方 RSS 标题/简介：'+desc[:230],'url':link,'reason':'新发现线索：仅核到 RSS 元数据，正文/音频说话人尚未核验，不能列为正式观点。','entity':entity}
+    if key in old:
+     old[key].update({'url':link,'audio_url':audio if audio.startswith('https://') else ''});continue
+    lead={'id':key,'date':when.date().isoformat(),'title':title,'description':'官方 RSS 标题/简介：'+desc[:230],'url':link,'audio_url':audio if audio.startswith('https://') else '','source':'auto','found_at':now.date().isoformat(),'reason':'新发现线索：仅核到 RSS 元数据，正文/音频说话人尚未核验，不能列为正式观点。','entity':entity}
     old[key]=lead;fresh.append(lead)
     seen_titles.add(title.strip().lower())
    # 本轮抓取成功时，清掉窗口内已不再符合筛选规则的自动线索（人工整理的线索不动）
