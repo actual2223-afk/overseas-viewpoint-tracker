@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T10:16:23.306350+00:00",
+  "generated_at": "2026-11-24T10:20:54.092738+00:00",
   "cards_as_of": "2026-11-24",
-  "last_successful_check": "2026-11-24 10:16 UTC",
+  "last_successful_check": "2026-11-24 10:20 UTC",
   "mode": "自动发现已运行；正式观点卡仍为人工构建的已核快照",
   "coverage_claim": "A–H 已做首轮公开入口检查；X、授权研报、音频和外部渠道未证明穷尽",
   "cards": [
@@ -386,15 +386,6 @@
       "entity": "高盛"
     },
     {
-      "id": "LIVE-29dca228467a",
-      "date": "2026-11-11",
-      "title": "Playing for Scale: The Future of Sports Investing",
-      "description": "官方 RSS 标题/简介：Investors are finding opportunities in sports as the media rights market surges and team valuations climb, Nicole Pullen Ross, head of the Sports and Entertainment Solutions within Goldman Sachs Private Wealth Management, explains",
-      "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD8882478019.mp3",
-      "reason": "新发现线索：仅核到 RSS 元数据，正文/音频说话人尚未核验，不能列为正式观点。",
-      "entity": "高盛"
-    },
-    {
       "id": "LIVE-a9284e753d74",
       "date": "2026-11-09",
       "title": "Scott Kupor on Building a16z and Rebuilding the Federal Workforce",
@@ -410,15 +401,6 @@
       "description": "高盛管理层关于 GDP、AI 和并购的节目，须与 GIR 2027 策略分开。",
       "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/john-waldron-on-gdp-growth-ai-and-the-m-a-outlook",
       "reason": "官网有逐字稿；本任务相关判断尚未逐段筛选。",
-      "entity": "高盛"
-    },
-    {
-      "id": "LIVE-df1e6968eecc",
-      "date": "2026-11-04",
-      "title": "John Waldron on GDP Growth, AI, and the M&A Outlook",
-      "description": "官方 RSS 标题/简介：Goldman Sachs President and COO John Waldron says clients have a cautiously optimistic outlook and the surge in M&A is a sign of that confidence. In the Exchanges podcast, he also discusses opportunities in asset and wealth manage",
-      "url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD4850394850.mp3",
-      "reason": "新发现线索：仅核到 RSS 元数据，正文/音频说话人尚未核验，不能列为正式观点。",
       "entity": "高盛"
     },
     {
@@ -615,14 +597,14 @@
       "entity": "a16z",
       "status": "成功",
       "relevant_items": 1,
-      "checked_at": "2026-11-24T10:16:23.306350+00:00",
+      "checked_at": "2026-11-24T10:20:54.092738+00:00",
       "feed": "https://feeds.simplecast.com/JGE3yC0V"
     },
     {
       "entity": "高盛",
       "status": "成功",
-      "relevant_items": 5,
-      "checked_at": "2026-11-24T10:16:23.306350+00:00",
+      "relevant_items": 4,
+      "checked_at": "2026-11-24T10:20:54.092738+00:00",
       "feed": "https://feeds.megaphone.fm/GLD9218176758"
     }
   ]
