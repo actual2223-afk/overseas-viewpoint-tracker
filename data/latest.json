@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T10:44:52.747096+00:00",
+  "generated_at": "2026-11-25T08:41:23.120621+00:00",
   "cards_as_of": "2026-11-24",
-  "last_successful_check": "2026-11-24 10:44 UTC",
+  "last_successful_check": "2026-11-25 08:41 UTC",
   "mode": "自动发现已运行；正式观点卡仍为人工构建的已核快照",
   "coverage_claim": "A–H 已做首轮公开入口检查；X、授权研报、音频和外部渠道未证明穷尽",
   "cards": [
@@ -359,6 +359,18 @@
   ],
   "leads": [
     {
+      "id": "LIVE-f78b92d27558",
+      "date": "2026-11-24",
+      "title": "What Will Determine the Durability of the AI Investment Cycle?",
+      "description": "官方 RSS 标题/简介：Will AI-related market stresses and regulatory uncertainty stall investment in AI? Demand, capital, and power supply may determine whether the investment cycle endures, Social Capital CEO Chamath Palihapitiya and Eric Sheridan of ",
+      "url": "https://www.goldmansachs.com/insights/series/exchanges-at-goldman-sachs/index.html",
+      "audio_url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD3836292455.mp3",
+      "source": "auto",
+      "found_at": "2026-11-25",
+      "reason": "新发现线索：仅核到 RSS 元数据，正文/音频说话人尚未核验，不能列为正式观点。",
+      "entity": "高盛"
+    },
+    {
       "id": "L-GS-USREPORT",
       "date": "2026-11-23",
       "title": "US Economics Outlook 原报告落地页",
@@ -609,14 +621,14 @@
       "entity": "a16z",
       "status": "成功",
       "relevant_items": 1,
-      "checked_at": "2026-11-24T10:44:52.747096+00:00",
+      "checked_at": "2026-11-25T08:41:23.120621+00:00",
       "feed": "https://feeds.simplecast.com/JGE3yC0V"
     },
     {
       "entity": "高盛",
       "status": "成功",
-      "relevant_items": 4,
-      "checked_at": "2026-11-24T10:44:52.747096+00:00",
+      "relevant_items": 5,
+      "checked_at": "2026-11-25T08:41:23.120621+00:00",
       "feed": "https://feeds.megaphone.fm/GLD9218176758"
     }
   ]
