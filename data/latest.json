@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T08:41:23.120621+00:00",
+  "generated_at": "2026-11-25T19:20:04.916017+00:00",
   "cards_as_of": "2026-11-24",
-  "last_successful_check": "2026-11-25 08:41 UTC",
+  "last_successful_check": "2026-11-25 19:20 UTC",
   "mode": "自动发现已运行；正式观点卡仍为人工构建的已核快照",
   "coverage_claim": "A–H 已做首轮公开入口检查；X、授权研报、音频和外部渠道未证明穷尽",
   "cards": [
@@ -621,14 +621,14 @@
       "entity": "a16z",
       "status": "成功",
       "relevant_items": 1,
-      "checked_at": "2026-11-25T08:41:23.120621+00:00",
+      "checked_at": "2026-11-25T19:20:04.916017+00:00",
       "feed": "https://feeds.simplecast.com/JGE3yC0V"
     },
     {
       "entity": "高盛",
       "status": "成功",
       "relevant_items": 5,
-      "checked_at": "2026-11-25T08:41:23.120621+00:00",
+      "checked_at": "2026-11-25T19:20:04.916017+00:00",
       "feed": "https://feeds.megaphone.fm/GLD9218176758"
     }
   ]
